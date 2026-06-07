@@ -1,0 +1,49 @@
+---
+layout: null
+permalink: /search.json
+---
+[
+  {% assign sorted_terms = site.terms | sort: "title" %}
+  {% for term in sorted_terms %}
+    {% assign first_definition = "" %}
+    {% capture english_values %}
+      {% for sense in term.senses %}
+        {% if sense.english %}
+          {% for english in sense.english %}
+            {{ english }}{% unless forloop.last %}, {% endunless %}
+          {% endfor %}
+          {% unless forloop.last %} {% endunless %}
+        {% endif %}
+      {% endfor %}
+    {% endcapture %}
+    {% capture searchable_text %}
+      {{ term.title }}
+      {{ term.term_id }}
+      {{ term.initial }}
+      {{ term.stem }}
+      {{ term.aliases | join: " " }}
+      {{ term.related | join: " " }}
+      {% for sense in term.senses %}
+        {{ sense.english | join: " " }}
+        {{ sense.definition }}
+        {{ sense.example }}
+        {{ sense.usage_note }}
+        {{ sense.categories | join: " " }}
+        {{ sense.fields | join: " " }}
+      {% endfor %}
+    {% endcapture %}
+    {% for sense in term.senses %}
+      {% if first_definition == "" and sense.definition %}
+        {% assign first_definition = sense.definition %}
+      {% endif %}
+    {% endfor %}
+    {
+      "title": {{ term.title | jsonify }},
+      "url": {{ term.url | relative_url | jsonify }},
+      "initial": {{ term.initial | default: term.title | slice: 0 | upcase | jsonify }},
+      "english": {{ english_values | strip | normalize_whitespace | jsonify }},
+      "summary": {{ first_definition | markdownify | strip_html | normalize_whitespace | truncate: 180 | jsonify }},
+      "text": {{ searchable_text | markdownify | strip_html | normalize_whitespace | downcase | jsonify }}
+    }{% unless forloop.last %},{% endunless %}
+  {% endfor %}
+]

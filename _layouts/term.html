@@ -1,0 +1,443 @@
+---
+layout: default
+---
+
+<article class="term-entry">
+  <section class="term-search term-search-compact" data-search aria-label="Pencarian istilah">
+    <label for="term-search">Cari istilah</label>
+    <input id="term-search" type="search" placeholder="Cari istilah lain" autocomplete="off">
+    <p class="search-status" data-search-status aria-live="polite"></p>
+    <ul class="search-results" data-search-results hidden></ul>
+  </section>
+
+  <header class="term-header">
+    <h1>{{ page.title }}</h1>
+  </header>
+
+  {% for sense in page.senses %}
+    <section class="sense">
+      {% case sense.def_types %}
+      {% when "term" %}
+        <div class="sense-head">
+          <strong>{{ sense.def_idx | default: forloop.index }}</strong>
+
+          {% if sense.class %}
+            {% assign class_values = sense.class | join: "||" | split: "||" %}
+            <div class="meta-chips" aria-label="Kelas kata">
+              {% for class_key in class_values %}
+                {% assign clean_class_key = class_key | strip %}
+                {% assign class_meta = site.data.class[clean_class_key] %}
+                <span class="meta-chip" tabindex="0">
+                  {{ class_meta.label | default: clean_class_key }}
+                  {% if class_meta.description %}
+                    <span class="chip-help" role="tooltip">{{ class_meta.description }}</span>
+                  {% endif %}
+                </span>
+              {% endfor %}
+            </div>
+          {% endif %}
+
+          {% if sense.english %}
+            <span>
+              (Padanan Inggris:
+              <em>{{ sense.english | join: ", " }}</em>)
+            </span>
+          {% endif %}
+        </div>
+
+        {% if sense.definition %}
+          <div class="definition">
+            {{ sense.definition | markdownify }}
+          </div>
+        {% endif %}
+
+        {% if sense.categories %}
+          <div class="metadata-row">
+            <strong>Kategori:</strong>
+            <div class="meta-chips">
+              {% assign category_values = sense.categories | join: "||" | split: "||" %}
+              {% for category_key in category_values %}
+                {% assign clean_category_key = category_key | strip %}
+                {% assign category_meta = site.data.categories[clean_category_key] %}
+                <span class="meta-chip" tabindex="0">
+                  {{ category_meta.label | default: clean_category_key }}
+                  {% if category_meta.description %}
+                    <span class="chip-help" role="tooltip">{{ category_meta.description }}</span>
+                  {% endif %}
+                </span>
+              {% endfor %}
+            </div>
+          </div>
+        {% endif %}
+
+        {% if sense.fields %}
+          <div class="metadata-row">
+            <strong>Bidang:</strong>
+            <div class="meta-chips">
+              {% assign field_values = sense.fields | join: "||" | split: "||" %}
+              {% for field_key in field_values %}
+                {% assign clean_field_key = field_key | strip %}
+                {% assign field_meta = site.data.fields[clean_field_key] %}
+                <span class="meta-chip" tabindex="0">
+                  {{ field_meta.label | default: clean_field_key }}
+                  {% if field_meta.description %}
+                    <span class="chip-help" role="tooltip">{{ field_meta.description }}</span>
+                  {% endif %}
+                </span>
+              {% endfor %}
+            </div>
+          </div>
+        {% endif %}
+
+        {% if sense.example %}
+          <div class="example">
+            <strong>Contoh penggunaan:</strong>
+            {{ sense.example | markdownify }}
+          </div>
+        {% endif %}
+
+        {% assign clean_usage_note = sense.usage_note | strip %}
+        {% if clean_usage_note != "" %}
+          <div class="usage-note">
+            <strong>Catatan penggunaan:</strong>
+            {{ sense.usage_note | markdownify }}
+          </div>
+        {% endif %}
+
+      {% when "redirect" %}
+        <div class="sense-head">
+          <strong>{{ sense.def_idx | default: forloop.index }}</strong>
+
+          {% if sense.class %}
+            {% assign class_values = sense.class | join: "||" | split: "||" %}
+            <div class="meta-chips" aria-label="Kelas kata">
+              {% for class_key in class_values %}
+                {% assign clean_class_key = class_key | strip %}
+                {% assign class_meta = site.data.class[clean_class_key] %}
+                <span class="meta-chip" tabindex="0">
+                  {{ class_meta.label | default: clean_class_key }}
+                  {% if class_meta.description %}
+                    <span class="chip-help" role="tooltip">{{ class_meta.description }}</span>
+                  {% endif %}
+                </span>
+              {% endfor %}
+            </div>
+          {% endif %}
+
+          {% if sense.english %}
+            <span>
+              (Padanan Inggris:
+              <em>{{ sense.english | join: ", " }}</em>)
+            </span>
+          {% endif %}
+        </div>
+
+        {% assign clean_target = sense.target | strip %}
+        {% assign linked_url = "" %}
+        {% assign linked_title = clean_target %}
+        {% assign clean_target_downcase = clean_target | downcase %}
+        {% for term in site.terms %}
+          {% assign term_id_downcase = term.term_id | downcase %}
+          {% assign term_title_downcase = term.title | downcase %}
+          {% if term_id_downcase == clean_target_downcase or term_title_downcase == clean_target_downcase %}
+            {% assign linked_url = term.url %}
+            {% assign linked_title = term.title %}
+          {% endif %}
+        {% endfor %}
+        <p class="redirect">
+          <strong>Lihat:</strong>
+          {% if linked_url != "" %}
+            <a href="{{ linked_url | relative_url }}">{{ linked_title }}</a>
+          {% else %}
+            {{ linked_title }}
+          {% endif %}
+        </p>
+
+        {% assign clean_usage_note = sense.usage_note | strip %}
+        {% if clean_usage_note != "" %}
+          <div class="usage-note">
+            <strong>Catatan penggunaan:</strong>
+            {{ sense.usage_note | markdownify }}
+          </div>
+        {% endif %}
+
+      {% when "alternate" %}
+        <div class="sense-head">
+          <strong>{{ sense.def_idx | default: forloop.index }}</strong>
+
+          {% if sense.class %}
+            {% assign class_values = sense.class | join: "||" | split: "||" %}
+            <div class="meta-chips" aria-label="Kelas kata">
+              {% for class_key in class_values %}
+                {% assign clean_class_key = class_key | strip %}
+                {% assign class_meta = site.data.class[clean_class_key] %}
+                <span class="meta-chip" tabindex="0">
+                  {{ class_meta.label | default: clean_class_key }}
+                  {% if class_meta.description %}
+                    <span class="chip-help" role="tooltip">{{ class_meta.description }}</span>
+                  {% endif %}
+                </span>
+              {% endfor %}
+            </div>
+          {% endif %}
+
+          {% if sense.english %}
+            <span>
+              (Padanan Inggris:
+              <em>{{ sense.english | join: ", " }}</em>)
+            </span>
+          {% endif %}
+        </div>
+
+        {% assign clean_target = sense.target | strip %}
+        {% assign linked_url = "" %}
+        {% assign linked_title = clean_target %}
+        {% assign clean_target_downcase = clean_target | downcase %}
+        {% for term in site.terms %}
+          {% assign term_id_downcase = term.term_id | downcase %}
+          {% assign term_title_downcase = term.title | downcase %}
+          {% if term_id_downcase == clean_target_downcase or term_title_downcase == clean_target_downcase %}
+            {% assign linked_url = term.url %}
+            {% assign linked_title = term.title %}
+          {% endif %}
+        {% endfor %}
+        <p class="alternate">
+          <strong>Bentuk lain dari:</strong>
+          {% if linked_url != "" %}
+            <a href="{{ linked_url | relative_url }}">{{ linked_title }}</a>
+          {% else %}
+            {{ linked_title }}
+          {% endif %}
+        </p>
+
+        {% assign clean_usage_note = sense.usage_note | strip %}
+        {% if clean_usage_note != "" %}
+          <div class="usage-note">
+            <strong>Catatan penggunaan:</strong>
+            {{ sense.usage_note | markdownify }}
+          </div>
+        {% endif %}
+      {% endcase %}
+
+      {% if sense.references %}
+        <details class="metadata-details references">
+          <summary>Referensi ({{ sense.references | size }})</summary>
+
+          <ul>
+            {% for ref in sense.references %}
+              {% assign reference = site.data.references[ref] %}
+              <li>
+                {% if reference %}
+                  {% if reference.authors %}
+                    {% for author in reference.authors %}
+                      {{ author.given }} {{ author.family }}{% unless forloop.last %}, {% endunless %}
+                    {% endfor %}
+                    .
+                  {% elsif reference.organization %}
+                    {{ reference.organization }}.
+                  {% endif %}
+
+                  {% if reference.date %}
+                    ({{ reference.date }}).
+                  {% endif %}
+
+                  {% if reference.url %}
+                    <a href="{{ reference.url }}">{{ reference.title }}</a>.
+                  {% else %}
+                    <em>{{ reference.title }}</em>.
+                  {% endif %}
+
+                  {% if reference.publisher %}
+                    {{ reference.publisher }}.
+                  {% endif %}
+                {% else %}
+                  {{ ref }}
+                {% endif %}
+              </li>
+            {% endfor %}
+          </ul>
+        </details>
+      {% endif %}
+    </section>
+  {% endfor %}
+
+  {% capture origin_items %}
+    {% for item in page.origin %}
+      {% assign clean_language = item.language | strip %}
+      {% assign clean_original = item.original | strip %}
+      {% if clean_language != "" or clean_original != "" %}
+        <li>
+          {% if clean_language != "" %}<strong>{{ item.language }}</strong>{% endif %}
+          {% if clean_language != "" and clean_original != "" %}: {% endif %}
+          {% if clean_original != "" %}<em>{{ item.original }}</em>{% endif %}
+        </li>
+      {% endif %}
+    {% endfor %}
+  {% endcapture %}
+  {% assign clean_origin_items = origin_items | strip %}
+  {% if clean_origin_items != "" %}
+    <details class="metadata-details">
+      <summary>Etimologi</summary>
+      <ul>{{ origin_items }}</ul>
+    </details>
+  {% endif %}
+
+  {% capture word_relation_rows %}
+    {% assign clean_stem = page.stem | strip %}
+    {% if clean_stem != "" %}
+      <div class="word-relation-row">
+        <dt>Kelompok kata:</dt>
+        <dd>
+          {% assign linked_url = "" %}
+          {% assign linked_title = clean_stem %}
+          {% assign clean_stem_downcase = clean_stem | downcase %}
+          {% for term in site.terms %}
+            {% assign term_id_downcase = term.term_id | downcase %}
+            {% assign term_title_downcase = term.title | downcase %}
+            {% if term_id_downcase == clean_stem_downcase or term_title_downcase == clean_stem_downcase %}
+              {% assign linked_url = term.url %}
+              {% assign linked_title = term.title %}
+            {% endif %}
+          {% endfor %}
+          {% if linked_url != "" %}
+            <a href="{{ linked_url | relative_url }}">{{ linked_title }}</a>
+          {% else %}
+            {{ linked_title }}
+          {% endif %}
+        </dd>
+      </div>
+    {% endif %}
+
+    {% assign clean_aliases = page.aliases | compact %}
+    {% if clean_aliases.size > 0 %}
+      <div class="word-relation-row">
+        <dt>Sebutan lain:</dt>
+        <dd>
+          {% for alias in clean_aliases %}
+            {% assign clean_alias = alias | strip %}
+            {% if clean_alias != "" %}
+              {% assign linked_url = "" %}
+              {% assign linked_title = clean_alias %}
+              {% assign clean_alias_downcase = clean_alias | downcase %}
+              {% for term in site.terms %}
+                {% assign term_id_downcase = term.term_id | downcase %}
+                {% assign term_title_downcase = term.title | downcase %}
+                {% if term_id_downcase == clean_alias_downcase or term_title_downcase == clean_alias_downcase %}
+                  {% assign linked_url = term.url %}
+                  {% assign linked_title = term.title %}
+                {% endif %}
+              {% endfor %}
+              {% if linked_url != "" %}
+                <a href="{{ linked_url | relative_url }}">{{ linked_title }}</a>{% unless forloop.last %}, {% endunless %}
+              {% else %}
+                {{ linked_title }}{% unless forloop.last %}, {% endunless %}
+              {% endif %}
+            {% endif %}
+          {% endfor %}
+        </dd>
+      </div>
+    {% endif %}
+
+    {% assign clean_related = page.related | compact %}
+    {% if clean_related.size > 0 %}
+      <div class="word-relation-row">
+        <dt>Istilah terkait:</dt>
+        <dd>
+          {% for related in clean_related %}
+            {% assign clean_related_term = related | strip %}
+            {% if clean_related_term != "" %}
+              {% assign linked_url = "" %}
+              {% assign linked_title = clean_related_term %}
+              {% assign clean_related_downcase = clean_related_term | downcase %}
+              {% for term in site.terms %}
+                {% assign term_id_downcase = term.term_id | downcase %}
+                {% assign term_title_downcase = term.title | downcase %}
+                {% if term_id_downcase == clean_related_downcase or term_title_downcase == clean_related_downcase %}
+                  {% assign linked_url = term.url %}
+                  {% assign linked_title = term.title %}
+                {% endif %}
+              {% endfor %}
+              {% if linked_url != "" %}
+                <a href="{{ linked_url | relative_url }}">{{ linked_title }}</a>{% unless forloop.last %}, {% endunless %}
+              {% else %}
+                {{ linked_title }}{% unless forloop.last %}, {% endunless %}
+              {% endif %}
+            {% endif %}
+          {% endfor %}
+        </dd>
+      </div>
+    {% endif %}
+  {% endcapture %}
+  {% assign clean_word_relation_rows = word_relation_rows | strip %}
+  {% if clean_word_relation_rows != "" %}
+    <section class="term-section word-relations">
+      <dl>{{ word_relation_rows }}</dl>
+    </section>
+  {% endif %}
+
+  {% if page.status %}
+    <section class="term-section">
+      {% assign status_meta = site.data.status[page.status].first %}
+      <div class="metadata-row">
+        <strong>Status:</strong>
+        <div class="meta-chips">
+          <span class="meta-chip" tabindex="0">
+            {{ status_meta.label | default: page.status }}
+            {% if status_meta.description %}
+              <span class="chip-help" role="tooltip">{{ status_meta.description }}</span>
+            {% endif %}
+          </span>
+        </div>
+      </div>
+
+      {% assign clean_status_note = page.status_note | strip %}
+      {% if clean_status_note != "" %}
+        <div class="status-note">
+          {{ page.status_note | markdownify }}
+        </div>
+      {% endif %}
+    </section>
+  {% endif %}
+
+  {% capture review_items %}
+    {% for review in page.review %}
+      {% assign clean_proposer = review.proposer | strip %}
+      {% assign clean_reviewer = review.reviewer | strip %}
+      {% assign clean_editor = review.editor | strip %}
+      {% assign clean_opponent = review.opponent | strip %}
+      {% assign clean_review_status = review.review_status | strip %}
+      {% assign clean_community_score = review.community_score | strip %}
+      {% if clean_proposer != "" or clean_reviewer != "" or clean_editor != "" or clean_opponent != "" or clean_review_status != "" or clean_community_score != "" %}
+        <dl>
+          {% if clean_proposer != "" %}<div><dt>Pengusul</dt><dd>{{ review.proposer }}</dd></div>{% endif %}
+          {% if clean_reviewer != "" %}<div><dt>Penelaah</dt><dd>{{ review.reviewer }}</dd></div>{% endif %}
+          {% if clean_editor != "" %}<div><dt>Editor</dt><dd>{{ review.editor }}</dd></div>{% endif %}
+          {% if clean_opponent != "" %}<div><dt>Penyanggah</dt><dd>{{ review.opponent }}</dd></div>{% endif %}
+          {% if clean_review_status != "" %}<div><dt>Status telaah</dt><dd>{{ review.review_status }}</dd></div>{% endif %}
+          {% if clean_community_score != "" %}<div><dt>Skor komunitas</dt><dd>{{ review.community_score }}</dd></div>{% endif %}
+        </dl>
+      {% endif %}
+    {% endfor %}
+  {% endcapture %}
+  {% assign clean_review_items = review_items | strip %}
+  {% if clean_review_items != "" %}
+    <details class="metadata-details">
+      <summary>Riwayat Telaah</summary>
+      {{ review_items }}
+    </details>
+  {% endif %}
+
+  <section class="term-section entry-history">
+    <strong>Riwayat entri</strong>
+
+    <ul>
+      {% if page.date_added %}
+        <li>Dibuat: {{ page.date_added }}</li>
+      {% endif %}
+
+      {% if page.last_modified %}
+        <li>Terakhir diubah: {{ page.last_modified }}</li>
+      {% endif %}
+    </ul>
+  </section>
+</article>

@@ -1,0 +1,25 @@
+adj:
+  label: Adjektiva
+  description: >
+    Adjektiva adalah kelas kata yang digunakan untuk memberikan informasi tambahan tentang suatu benda, orang, atau konsep. Adjektiva biasanya digunakan untuk menjelaskan sifat, kualitas, atau keadaan suatu objek.
+
+noun:
+  label: Nomina
+  description: >
+    Nomina adalah kelas kata yang digunakan untuk menyebutkan nama orang, tempat, benda, atau konsep. Nomina dapat berfungsi sebagai subjek, objek, atau pelengkap dalam suatu kalimat.
+
+verb:
+  label: Verba
+  description: >
+    Verba adalah kelas kata yang digunakan untuk menyatakan suatu tindakan, keadaan, atau proses. Verba biasanya digunakan untuk menunjukkan apa yang dilakukan oleh subjek dalam suatu kalimat.
+
+adv:
+  label: Adverbia
+  description: >
+    Adverbia adalah kelas kata yang digunakan untuk memberikan informasi tambahan tentang suatu tindakan, keadaan, atau proses. Adverbia biasanya digunakan untuk menjelaskan bagaimana, kapan, di mana, atau seberapa sering suatu tindakan terjadi.
+
+pron:
+  label: Pronomina
+  description: >
+    Pronomina adalah kelas kata yang digunakan untuk menggantikan nomina atau frasa nomina dalam suatu kalimat. Pronomina dapat berfungsi sebagai subjek, objek, atau pelengkap dalam suatu kalimat.
+

@@ -1,0 +1,60 @@
+konsep:
+  label: Konsep
+  description: >
+    Konsep adalah suatu gagasan atau ide yang digunakan untuk memahami atau menjelaskan suatu fenomena, objek, atau hubungan antara berbagai elemen.
+
+teori:
+  label: Teori
+  description: >
+    Teori adalah suatu sistem ide atau kerangka kerja yang digunakan untuk menjelaskan, memprediksi, atau memahami suatu fenomena atau hubungan antara berbagai elemen dalam bidang Psikologi. Kategori ini mencakup teori, model, dan hukum.
+
+aliran:
+  label: Aliran
+  description: >
+    Aliran adalah suatu pendekatan atau pandangan yang digunakan untuk memahami atau menjelaskan suatu fenomena dalam bidang Psikologi. Aliran dapat mencakup berbagai teori, konsep, dan metode yang digunakan oleh para ahli dalam bidang tersebut.
+
+fenomena:
+  label: Fenomena
+  description: >
+    Fenomena adalah suatu kejadian, peristiwa, atau keadaan yang dapat diamati atau dialami dalam bidang Psikologi. Fenomena dapat mencakup berbagai aspek seperti perilaku, pikiran, emosi, dan interaksi sosial.
+
+kondisi:
+  label: Kondisi
+  description: >
+    Kondisi adalah suatu keadaan atau situasi yang mempengaruhi atau terkait dengan suatu fenomena dalam bidang Psikologi. Kondisi dapat mencakup gejala, sindrom, gangguan, atau faktor-faktor yang mempengaruhi kesehatan mental dan kesejahteraan individu.
+
+proses:
+  label: Proses
+  description: >
+    Proses adalah suatu rangkaian tahapan atau langkah-langkah yang terjadi dalam suatu fenomena atau kondisi dalam bidang Psikologi. Proses dapat mencakup berbagai aspek seperti perkembangan, perubahan, atau dinamika yang terjadi dalam pikiran, perilaku, atau interaksi sosial.
+
+tokoh:
+  label: Tokoh
+  description: >
+    Tokoh adalah individu atau kelompok yang memiliki peran penting dalam bidang Psikologi, baik sebagai peneliti, praktisi, atau tokoh sejarah yang memberikan kontribusi signifikan terhadap perkembangan ilmu Psikologi. Tokoh dapat mencakup para ahli, penemu, atau tokoh inspiratif yang mempengaruhi pemikiran dan praktik dalam bidang tersebut.
+
+metode:
+  label: Metode
+  description: >
+    Metode adalah suatu cara atau teknik yang digunakan untuk melakukan penelitian, pengumpulan data, atau analisis dalam bidang Psikologi. Metode dapat mencakup berbagai pendekatan seperti eksperimen, observasi, wawancara, atau survei yang digunakan untuk memahami fenomena atau kondisi dalam bidang tersebut.
+
+instrumen:
+  label: Instrumen
+  description: >
+    Instrumen adalah suatu alat atau perangkat yang digunakan untuk mengukur, mengumpulkan data, atau melakukan evaluasi dalam bidang Psikologi. Instrumen dapat mencakup berbagai jenis seperti kuesioner, tes psikologi, atau alat pengukur lainnya yang digunakan untuk mendapatkan informasi tentang fenomena atau kondisi dalam bidang tersebut.
+
+intervensi:
+  label: Intervensi
+  description: >
+    Intervensi adalah suatu tindakan atau strategi yang dilakukan untuk mempengaruhi atau mengubah suatu fenomena atau kondisi dalam bidang Psikologi. Intervensi dapat mencakup berbagai pendekatan seperti terapi, konseling, atau program intervensi lainnya yang digunakan untuk meningkatkan kesehatan mental dan kesejahteraan individu.
+
+anatomi:
+  label: Anatomi
+  description: >
+    Anatomi mencakup istilah-istilah terkait struktur tubuh manusia, termasuk sistem saraf, otot, dan organ-organ lainnya yang terkait dengan fungsi psikologis dan perilaku manusia. Anatomi dapat memberikan pemahaman tentang bagaimana struktur tubuh mempengaruhi fungsi psikologis dan perilaku individu.
+
+ilmu:
+  label: Ilmu Pengetahuan
+  description: >
+    Ilmu pengetahuan mencakup istilah-istilah yang terkait dengan bidang ilmu pengetahuan dan sub-bidang di dalamnya.
+

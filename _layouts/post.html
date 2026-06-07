@@ -1,0 +1,63 @@
+---
+layout: default
+---
+
+{% assign month_names = "Januari,Februari,Maret,April,Mei,Juni,Juli,Agustus,September,Oktober,November,Desember" | split: "," %}
+{% assign post_day = page.date | date: "%-d" %}
+{% assign post_month_number = page.date | date: "%-m" %}
+{% assign post_month_index = post_month_number | minus: 1 %}
+{% assign post_month_name = month_names[post_month_index] %}
+{% assign post_year = page.date | date: "%Y" %}
+
+<article class="post-entry">
+  <header class="post-header">
+    {% if page.post_categories %}
+      {% assign post_category_values = page.post_categories | join: "||" | split: "||" %}
+      <div class="post-category-chips" aria-label="Kategori berita">
+        {% for post_category_key in post_category_values %}
+          {% assign clean_post_category_key = post_category_key | strip %}
+          {% assign post_category_meta = site.data.post_categories[clean_post_category_key] %}
+          <span class="meta-chip post-category-chip" tabindex="0">
+            {% if post_category_meta.label %}
+              {{ post_category_meta.label }}
+            {% else %}
+              {{ clean_post_category_key | replace: "-", " " | capitalize }}
+            {% endif %}
+            {% if post_category_meta.description %}
+              <span class="chip-help" role="tooltip">{{ post_category_meta.description }}</span>
+            {% endif %}
+          </span>
+        {% endfor %}
+      </div>
+    {% endif %}
+
+    <h1>{{ page.title }}</h1>
+
+    {% capture author_names %}
+      {% for author_key in page.authors %}
+        {% assign clean_author_key = author_key | strip %}
+        {% assign author = site.data.authors[clean_author_key] %}
+        {% if author %}
+          {{ author.preferred | default: author.given | default: clean_author_key }}{% if author.family and author.preferred == nil %} {{ author.family }}{% endif %}{% unless forloop.last %}, {% endunless %}
+        {% else %}
+          {{ clean_author_key }}{% unless forloop.last %}, {% endunless %}
+        {% endif %}
+      {% endfor %}
+    {% endcapture %}
+    {% assign clean_author_names = author_names | strip %}
+
+    <p class="post-byline">
+      Ditulis oleh
+      {% if clean_author_names != "" %}
+        {{ clean_author_names }}
+      {% else %}
+        penyusun
+      {% endif %}
+      pada {{ post_day }} {{ post_month_name }} {{ post_year }}.
+    </p>
+  </header>
+
+  <div class="post-content">
+    {{ content }}
+  </div>
+</article>

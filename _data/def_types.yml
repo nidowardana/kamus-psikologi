@@ -1,0 +1,24 @@
+term:
+  label: Istilah
+  description: "Istilah yang memiliki definisi tersendiri."
+  allowed_fields:
+  - definitions
+  - examples
+  - usage_notes
+  - references
+
+redirect:
+  label: Pengalihan
+  description: "Istilah memiliki definisi yang sama dengan istilah lain."
+  allowed_fields:
+  - target
+  - references
+  - usage_notes
+
+alternate:
+  label: Alternatif
+  description: "Istilah adalah bentuk alternatif dari istilah lain."
+  allowed_fields:
+  - target
+  - references
+  - usage_notes

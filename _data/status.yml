@@ -1,0 +1,26 @@
+established:
+- label: Ajeg
+  description: >
+    Istilah yang sudah mapan dan diterima secara luas dalam bidang Psikologi maupun Bahasa Indonesia secara umum.
+
+new:
+- label: Baru
+  description: >
+    Istilah yang baru diperkenalkan atau belum banyak digunakan dalam bidang Psikologi atau yang diajukan oleh komunitas. Penggunaan istilah ini perlu dilakukan dengan hati-hati dan adopsinya perlu dievaluasi.
+
+reviewed:
+- label: Ditinjau
+  description: >
+    Istilah yang telah melalui proses peninjauan oleh komunitas atau ahli di bidang Psikologi. Istilah ini mungkin masih dalam tahap evaluasi lebih lanjut.
+
+debated:
+- label: Diperdebatkan
+  description: >
+    Istilah yang masih menjadi perdebatan di antara para ahli atau komunitas. Penggunaan istilah ini mungkin kontroversial atau belum mencapai konsensus. Pertimbangkan untuk menggunakan istilah lain yang sepadan.
+
+obsolete:
+- label: Usang
+  description: >
+    Istilah yang sudah tidak digunakan lagi atau dianggap ketinggalan zaman dalam bidang Psikologi. Penggunaan istilah ini sebaiknya dihindari karena dapat menyebabkan kebingungan atau dianggap tidak relevan.
+
+

@@ -1,0 +1,55 @@
+umum:
+  label: Umum
+  description: >
+    Istilah-istilah yang tidak secara khusus terkait dengan sub-bidang tertentu dalam ilmu Psikologi.
+
+psi-klinis:
+  label: Psikologi Klinis
+  description: >
+    Istilah-istilah yang berkaitan dengan bidang Psikologi Klinis, yang fokus pada diagnosis, penanganan, dan pencegahan gangguan mental serta masalah kesehatan mental lainnya.
+
+psi-sosial:
+  label: Psikologi Sosial
+  description: >
+    Istilah-istilah yang berkaitan dengan bidang Psikologi Sosial, yang fokus pada bagaimana individu berinteraksi dengan orang lain dan bagaimana lingkungan sosial mempengaruhi perilaku dan pikiran individu.
+
+psi-pendidikan:
+  label: Psikologi Pendidikan
+  description: >
+    Istilah-istilah yang berkaitan dengan bidang Psikologi Pendidikan, yang fokus pada proses pembelajaran, perkembangan anak, dan faktor-faktor yang mempengaruhi keberhasilan pendidikan.
+
+psi-io:
+  label: Psikologi Industri dan Organisasi
+  description: >
+    Istilah-istilah yang berkaitan dengan bidang Psikologi Industri dan Organisasi, yang fokus pada perilaku manusia di tempat kerja, manajemen sumber daya manusia, dan faktor-faktor yang mempengaruhi produktivitas dan kesejahteraan karyawan.
+
+psi-perkembangan:
+  label: Psikologi Perkembangan
+  description: >
+    Istilah-istilah yang berkaitan dengan bidang Psikologi Perkembangan, yang fokus pada perubahan dan perkembangan individu sepanjang hayat, mulai dari masa bayi hingga usia lanjut.
+
+psi-biokognitif:
+  label: Biopsikologi dan Psikologi Kognitif
+  description: >
+    Istilah-istilah yang berkaitan dengan bidang Biopsikologi dan Psikologi Kognitif, yang fokus pada hubungan antara otak, sistem saraf, dan proses kognitif seperti persepsi, memori, dan pemikiran.
+
+psi-kepribadian:
+  label: Psikologi Kepribadian
+  description: >
+    Istilah-istilah yang berkaitan dengan bidang Psikologi Kepribadian, yang fokus pada studi tentang kepribadian manusia, termasuk teori-teori kepribadian, pengukuran kepribadian, dan faktor-faktor yang mempengaruhi perkembangan kepribadian.
+
+psikometri:
+  label: Psikometri
+  description: >
+    Istilah-istilah yang berkaitan dengan bidang Psikometri, yang fokus pada pengukuran psikologis, termasuk pengembangan dan penggunaan tes psikologi untuk mengukur berbagai aspek seperti kecerdasan, kepribadian, dan kesehatan mental.
+
+metodologi:
+  label: Metodologi Penelitian
+  description: >
+    Istilah-istilah yang berkaitan dengan metodologi penelitian dalam bidang Psikologi, termasuk desain penelitian, teknik pengumpulan data, dan analisis statistik yang digunakan untuk memahami fenomena psikologis.
+
+filsafat:
+  label: Filsafat Psikologi
+  description: >
+    Istilah-istilah yang berkaitan dengan filsafat psikologi, yang fokus pada pertanyaan-pertanyaan filosofis tentang pikiran, kesadaran, dan hubungan antara otak dan perilaku manusia. Filsafat psikologi juga mencakup diskusi tentang etika dalam penelitian dan praktik psikologi.
+

@@ -1,0 +1,10 @@
+word_of_month:
+- term_id: psikologi
+  def_idx: 1
+  start_date: 2026-06-01
+  end_date: 2026-06-30
+
+- term_id: psikologi
+  def_idx: 1
+  start_date: 2026-07-01
+

@@ -1,0 +1,22 @@
+jekyll-update:
+  label: Jekyll Update
+  description: >
+    Pos yang dibuat secara otomatis oleh Jekyll.
+
+announcement:
+  label: Pengumuman
+  description: >
+    Pos yang berisi pengumuman atau informasi penting terkait dengan situs ini atau hal terkait lainnya.
+
+update:
+  label: Pembaruan
+  description: >
+    Pos yang berisi catatan pembaruan atau perubahan mayor terbaru dalam situs ini.
+
+misc:
+  label: Lain-lain
+  description: >
+    Pos yang tidak termasuk dalam kategori lain, tetapi masih relevan dengan topik atau tujuan situs ini.
+
+
+

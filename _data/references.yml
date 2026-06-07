@@ -1,0 +1,124 @@
+hasan_1981:
+  type: book
+  authors:
+    - family: "Hasan"
+      given: "F."
+    - family: "dkk"
+  title: "Kamus Istilah Psikologi"
+  date: 1981
+  publisher: "Pusat Pembinaan dan Pengembangan Bahasa Departemen Pendidikan dan Kebudayaan"
+  location: "Jakarta"
+
+kbbi:
+  type: dictionary
+  organization: "Badan Pengembangan dan Pembinaan Bahasa"
+  title: "Kamus Besar Bahasa Indonesia"
+  date: 2016
+  publisher: "Kementerian Pendidikan Dasar dan Menengah Republik Indonesia"
+  url: https://kbbi.kemendikdasmen.go.id/
+
+sadarjoen_2020:
+  type: book
+  authors:
+    - family: "Sadarjoen"
+      given: "Sawitri Supardi"
+  title: "Kamus Psikologi Forensik"
+  date: 2020
+  publisher: "Badan Pengembangan dan Pembinaan Bahasa Kementerian Pendidikan dan Kebudayaan"
+  location: "Jakarta"
+  isbn: 978-623-307-011-9
+
+kridalaksana_1982:
+  type: book
+  authors:
+    - family: "Kridalaksana"
+      given: "Harimurti"
+  title: "Kamus Lingusitik"
+  date: 1982
+  publisher: "Gramedia"
+  location: "Jakarta"
+
+diener_2026:
+  type: book
+  authors:
+    - family: "Diener"
+      given: "Edward"
+    - family: "Biswas-Diener"
+      given: "Robert"
+  title: "Psychology"
+  series: "Noba Textbook Series"
+  date: 2026
+  publisher: "DEF publishers"
+  location: "Champaign"
+  url: http://noba.to/d95jpvm7
+
+spielman_2020:
+  type: book
+  authors:
+    - family: "Spielman"
+      given: "Rose M."
+    - family: "Jenkins"
+      given: "William J."
+    - family: "Lovett"
+      given: "Marilyn"
+  title: "Psychology"
+  edition: "2nd"
+  date: 2020
+  publisher: "OpenStax, Rice University"
+  location: "Houston"
+  url: https://openstax.org/details/books/psychology-2e
+
+weiten_2017:
+  type: book
+  authors:
+    - family: "Weiten"
+      given: "Wayne"
+  title: "Psychology: Themes and Variations"
+  edition: "10th"
+  date: 2017
+  publisher: "Cengage Learning"
+  location: "Australia"
+  isbn: 978-1-305-49820-4
+
+dsm_v_tr:
+  type: book
+  organization: "American Psychiatric Association"
+  title: "Diagnostic and Statistical Manual of Mental Disorders, Fifth Edition - Text Revision (DSM-5-TR)"
+  date: 2020
+  publisher: "American Psychiatric Publishing"
+  location: "Washington, D.C."
+  isbn: 978-0-89042-576-3
+
+ppnpk_1:
+  type: book
+  organization: "Ikatan Psikologi Klinis Indonesia"
+  title: "Pedoman Pelayanan Psikologi Klinis Indonesia (PPNPK) Edisi 1"
+  date: 2021
+  publisher: "Ikatan Psikologi Klinis Indonesia"
+  location: "Jakarta"
+
+krause_2019:
+  type: book
+  authors:
+    - family: "Krause"
+      given: "Mark A."
+    - family: "Corts"
+      given: "Daniel Paul"
+    - family: "Smith"
+      given: "Stephen"
+  title: "An Introduction to Psychological Science"
+  edition: "3rd Canadian Edition"
+  date: 2019
+  publisher: "Pearson"
+  location: "Toronto"
+  isbn: 978-0-13-542412-4
+
+maslim_2013:
+  type: book
+  authors:
+    - family: "Maslim"
+      given: "Rusdi"
+  title: "Diagnosis Gangguan Jiwa: Rujukan Ringkas PPDGJ-III dan DSM-5"
+  date: 2013
+  publisher: "Bagian Ilmu Kedokteran Jiwa FK-Unika Atmajaya"
+  location: "Jakarta"
