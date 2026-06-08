@@ -54,10 +54,11 @@ body {
 
 .site-title {
   display: inline-flex;
-  gap: 0.55rem;
+  gap: 0.45rem;
   align-items: center;
   color: #ffffff;
   font-weight: 750;
+  line-height: 1;
 }
 
 .site-title:hover {
@@ -66,10 +67,11 @@ body {
 
 .site-title-logo {
   display: block;
-  width: 2rem;
-  height: 2rem;
+  width: 1.65rem;
+  height: 1.65rem;
   object-fit: contain;
   flex: 0 0 auto;
+  transform: translateY(0.03rem);
 }
 
 .site-nav {
@@ -947,8 +949,8 @@ section {
   }
 
   .site-title-logo {
-    width: 1.8rem;
-    height: 1.8rem;
+    width: 1.55rem;
+    height: 1.55rem;
   }
 
   .hero-brand {

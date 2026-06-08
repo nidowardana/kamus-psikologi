@@ -6,7 +6,7 @@
   <title>{{ page.title }}</title>
 
   <link rel="icon" type="image/png" href="{{ '/assets/images/kamus-psikologi_favicon.png' | relative_url }}">
-  <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
+  <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}?v={{ site.time | date: '%Y%m%d%H%M%S' }}">
   <script src="{{ '/assets/js/search.js' | relative_url }}" data-search-index="{{ '/search.json' | relative_url }}" defer></script>
 </head>
 
