@@ -1,15 +1,15 @@
 ---
 layout: term
-term_id : pengondisian-operan
+term_id : pengondisian-klasikal
 initial: P
 disambiguator:
 
-title: pengondisian operan
+title: pengondisian klasikal
 
 senses:
 - def_idx: 1
   english:
-  - operant conditioning
+  - classical conditioning
   class:
   - noun
   categories: 
@@ -21,33 +21,30 @@ senses:
   - psi-klinis
   def_types: term
   definition: >
-    Sebuah bentuk proses belajar di mana respons perilaku menjadi dikendalikan oleh konsekuensinya.  
-    
-    Proses ini melibatkan pemberian penguatan. 
+    Sebuah bentuk proses belajar di mana stimulus yang bersifat netral menjadi mampu merangsang respons yang awalnya hanya muncul akibat stimulus lain.
   example: >
-    "Proses melatih anjing agar bisa melalukan berbagai trik melibatkan **pengondisian operan**."
+    "Air liur yang dikeluarkan anjing saat mendengar bunyi lonceng adalah hasil dari **pengondisian klasikal**."
   usage_note: >
   references:
   - weiten_2017
-  - hasan_1981
 
 origin:
   - language: Latin
-    original: operant, operans
+    original: classicus
   - language: Inggris-Prancis
     original: condicion
   - language: Latin
     original: condicere
 
-stem: operan
+stem: klasik
 aliases:
-  - kondisioning-operan
-  - pengondisian-instrumental
-  - kondisioning-instrumental
+  - kondisioning-klasikal
+  - pengondisian-pavlovian
+  - kondisioning-pavlovian
 related:
   - belajar
   - behaviorisme
-  - burrhus-frederic-skinner
+  - ivan-pavlov
 
 status: established
 status_note: >

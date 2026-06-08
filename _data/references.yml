@@ -122,3 +122,19 @@ maslim_2013:
   date: 2013
   publisher: "Bagian Ilmu Kedokteran Jiwa FK-Unika Atmajaya"
   location: "Jakarta"
+
+pinel_2018:
+  type: book
+  authors:
+    - family: "Pinel"
+      given: "John P. J."
+    - family: "Barnes"
+      given: "Steven J."
+  title: "Biopsychology"
+  edition: "10th Global Edition"
+  date: 2018
+  publisher: "Pearson"
+  location: "New York"
+  isbn: 978-1-292-15847-1
+
+  

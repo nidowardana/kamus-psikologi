@@ -1,15 +1,15 @@
 ---
 layout: term
-term_id : kondisioning-operan
+term_id : kondisioning-klasikal
 initial: K
 disambiguator:
 
-title: kondisioning operan
+title: kondisioning klasikal
 
 senses:
 - def_idx: 1
   english:
-  - operant conditioning
+  - classical conditioning
   class:
   - noun
   categories: 
@@ -22,14 +22,13 @@ senses:
   def_types: alternate
   target: pengondisian-operan
   usage_note: >
-    'Kondisioning's tidak dikenal dalam Kamus Besar Bahasa Indonesia.
+    'Kondisioning' tidak dikenal dalam Kamus Besar Bahasa Indonesia.
   references:
   - weiten_2017
-  - hasan_1981
 
 origin:
   - language: Latin
-    original: operant, operans
+    original: classicus
   - language: Inggris-Prancis
     original: condicion
   - language: Latin
@@ -37,9 +36,9 @@ origin:
 
 stem: operan
 aliases:
-  - pengondisian-operan
-  - pengondisian-instrumental
-  - kondisioning-instrumental
+  - pengondisian-klasikal
+  - pengondisian-pavlovian
+  - kondisioning-pavlovian
 related:
   - 
 
@@ -54,6 +53,6 @@ review:
   community_score:
 
 authors: ndw
-date_added: 2026-06-05
+date_added: 2026-06-08
 last_modified: 2026-06-08
 ---

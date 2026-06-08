@@ -1,29 +1,29 @@
 ---
 layout: term
-term_id : psikologi
+term_id : psikologis
 initial: P
 disambiguator:
 
-title: psikologi
+title: psikologis
 
 senses:
 - def_idx: 1
   english:
-  - psychology
+  - psychological
   class:
-  - noun
+  - adj
   categories: 
-  - ilmu
+  - konsep
   fields: 
   - umum
   def_types: term
   definition: >
-    Ilmu yang mempelajari perilaku individu beserta proses fisiologis dan kognitif yang mendasarinya.
+    Berkaitan dengan psikologi; bersifat kejiwaan.
   example: >
-    "Wilhelm Wundt dianggap sebagai bapak **Psikologi** modern."
+    "Pasien mengalami guncangan **psikologis**."
   usage_note: >
   references:
-  - weiten_2017
+  - kbbi
 
 origin:
   - language: Yunani
@@ -46,6 +46,6 @@ review:
   community_score:
 
 authors: ndw
-date_added: 2026-06-05
-last_modified: 2026-06-05
+date_added: 2026-06-08
+last_modified: 2026-06-08
 ---

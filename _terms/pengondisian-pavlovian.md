@@ -1,15 +1,15 @@
 ---
 layout: term
-term_id : kondisioning-operan
-initial: K
+term_id : pengondisian-pavlovian
+initial: P
 disambiguator:
 
-title: kondisioning operan
+title: pengondisian Pavlovian
 
 senses:
 - def_idx: 1
   english:
-  - operant conditioning
+  - Pavlovian conditioning
   class:
   - noun
   categories: 
@@ -20,26 +20,24 @@ senses:
   - psi-perkembangan
   - psi-klinis
   def_types: alternate
-  target: pengondisian-operan
+  target: pengondisian-klasikal
   usage_note: >
-    'Kondisioning's tidak dikenal dalam Kamus Besar Bahasa Indonesia.
+    Istilah ini diberikan karena teori mengenai pengondisian ini dikembangkan oleh Ivan Pavlov. Karena itu, bisa juga ditulis sebagai 'Pengondisian ala Pavlov'. 
   references:
   - weiten_2017
   - hasan_1981
 
 origin:
-  - language: Latin
-    original: operant, operans
   - language: Inggris-Prancis
     original: condicion
   - language: Latin
     original: condicere
 
-stem: operan
+stem: kondisi
 aliases:
-  - pengondisian-operan
-  - pengondisian-instrumental
-  - kondisioning-instrumental
+  - pengondisian-klasikal
+  - kondisioning-klasikal
+  - kondisioning-pavlovian
 related:
   - 
 
@@ -54,6 +52,6 @@ review:
   community_score:
 
 authors: ndw
-date_added: 2026-06-05
+date_added: 2026-06-08
 last_modified: 2026-06-08
 ---
