@@ -2,8 +2,8 @@ title: Kamus Psikologi
 email: 
 description: >- 
   Kamus Istilah Psikologi Indonesia.
-baseurl: "/kamus-psikologi" 
-url: "https://nidowardana.github.io" 
+baseurl: "" 
+url: "https://kamuspsikologi.id" 
 twitter_username: 
 github_username:  
 
@@ -17,4 +17,3 @@ collections:
   terms:
     output: true
     permalink: /istilah/:name/
-
