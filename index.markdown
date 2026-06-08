@@ -5,7 +5,7 @@ title: Kamus Psikologi
 
 <section class="hero">
   <div class="hero-brand">
-    <img class="hero-logo" src="{{ '/assets/images/kamus-psikologi_logo.png' | relative_url }}" alt="" width="1087" height="1308">
+    <img class="hero-logo" src="{{ '/assets/images/kamus-psikologi_logo.png' | relative_url }}" alt="" width="176" height="212">
     <div class="hero-copy">
       <p class="eyebrow">Kamus terbuka</p>
       <h1>Kamus Psikologi Indonesia</h1>
