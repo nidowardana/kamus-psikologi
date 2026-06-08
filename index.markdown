@@ -4,11 +4,16 @@ title: Kamus Psikologi
 ---
 
 <section class="hero">
-  <p class="eyebrow">Kamus terbuka</p>
-  <h1>Kamus Psikologi Indonesia</h1>
-  <p class="lead">
-    Rujukan istilah psikologi berbahasa Indonesia untuk menemukan definisi, padanan bahasa Inggris, bidang kajian, dan catatan penggunaan secara ringkas.
-  </p>
+  <div class="hero-brand">
+    <img class="hero-logo" src="{{ '/assets/images/kamus-psikologi_logo.png' | relative_url }}" alt="" width="1087" height="1308">
+    <div class="hero-copy">
+      <p class="eyebrow">Kamus terbuka</p>
+      <h1>Kamus Psikologi Indonesia</h1>
+      <p class="lead">
+        Rujukan istilah psikologi berbahasa Indonesia untuk menemukan definisi, padanan bahasa Inggris, bidang kajian, dan catatan penggunaan secara ringkas.
+      </p>
+    </div>
+  </div>
 
   <div class="button-row">
     <a class="button" href="{{ '/ramban/' | relative_url }}">Ramban istilah</a>

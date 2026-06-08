@@ -53,8 +53,23 @@ body {
 }
 
 .site-title {
+  display: inline-flex;
+  gap: 0.55rem;
+  align-items: center;
   color: #ffffff;
   font-weight: 750;
+}
+
+.site-title:hover {
+  text-decoration: none;
+}
+
+.site-title-logo {
+  display: block;
+  width: 2rem;
+  height: 2rem;
+  object-fit: contain;
+  flex: 0 0 auto;
 }
 
 .site-nav {
@@ -215,6 +230,25 @@ section {
 
 .hero {
   padding: 2rem 0 1rem;
+}
+
+.hero-brand {
+  display: grid;
+  grid-template-columns: minmax(7rem, 11rem) minmax(0, 1fr);
+  gap: clamp(1.25rem, 4vw, 2.5rem);
+  align-items: center;
+}
+
+.hero-logo {
+  display: block;
+  width: 100%;
+  height: auto;
+  max-height: 15rem;
+  object-fit: contain;
+}
+
+.hero-copy > :last-child {
+  margin-bottom: 0;
 }
 
 .page-header {
@@ -910,6 +944,21 @@ section {
 
   .site-nav {
     justify-content: flex-start;
+  }
+
+  .site-title-logo {
+    width: 1.8rem;
+    height: 1.8rem;
+  }
+
+  .hero-brand {
+    grid-template-columns: 1fr;
+    gap: 1rem;
+  }
+
+  .hero-logo {
+    width: min(8.5rem, 52vw);
+    max-height: none;
   }
 
   .site-footer-inner {

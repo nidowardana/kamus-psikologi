@@ -5,6 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>{{ page.title }}</title>
 
+  <link rel="icon" type="image/png" href="{{ '/assets/images/kamus-psikologi_favicon.png' | relative_url }}">
   <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
   <script src="{{ '/assets/js/search.js' | relative_url }}" data-search-index="{{ '/search.json' | relative_url }}" defer></script>
 </head>
@@ -13,7 +14,10 @@
 
   <header class="site-header">
     <div class="site-header-inner">
-      <a class="site-title" href="{{ '/' | relative_url }}">{{ site.title }}</a>
+      <a class="site-title" href="{{ '/' | relative_url }}">
+        <img class="site-title-logo" src="{{ '/assets/images/kamus-psikologi_logo2.png' | relative_url }}" alt="" width="1708" height="1708">
+        <span>{{ site.title }}</span>
+      </a>
 
       <nav class="site-nav" aria-label="Navigasi utama">
         <a href="{{ '/' | relative_url }}">Cari</a>
