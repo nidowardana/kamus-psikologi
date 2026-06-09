@@ -33,7 +33,7 @@ origin:
   - language: Latin
     original: selectus
   - language: Arab
-    original: 'alam 
+    original: alam 
 
 stem: alam
 aliases:
