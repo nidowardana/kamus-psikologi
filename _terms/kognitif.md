@@ -1,35 +1,37 @@
 ---
 layout: term
-term_id : psikologi-humanistis
-initial: P
+term_id : kognitif
+initial: K
 disambiguator:
 
-title: psikologi humanistis
+title: kognitif
 
 senses:
 - def_idx: 1
   english:
-  - humanistic psychology
+  - cognitive
   class:
-  - noun
+  - adj
   categories: 
-  - teori
+  - konsep
   fields: 
   - umum
-  def_types: alternate
-  target: humanisme
+  def_types: term
+  definition: >
+    Berkaitan dengan atau melibatkan kognisi.
+  example: >
+    "Depresi klinis ditandai pula dengan gangguan pada fungsi **kognitif**."
   usage_note: >
   references:
   - kbbi
 
 origin:
   - language: Latin
-    original: humanus
+    original: cognition
 
-stem: human
+stem: kognisi
 aliases:
-  - humanisme
-  - psikologi-humanistik
+  -
 related:
   - 
 
@@ -44,6 +46,6 @@ review:
   community_score:
 
 authors: ndw
-date_added: 2026-06-08
-last_modified: 2026-06-08
+date_added: 2026-06-09
+last_modified: 2026-06-09
 ---

@@ -1,35 +1,37 @@
 ---
 layout: term
-term_id : psikologi-humanistis
+term_id : perspektif-evolusi
 initial: P
 disambiguator:
 
-title: psikologi humanistis
+title: perspektif evolusi
 
 senses:
 - def_idx: 1
   english:
-  - humanistic psychology
+  - evolutionary perspective
   class:
   - noun
   categories: 
   - teori
   fields: 
   - umum
-  def_types: alternate
-  target: humanisme
+  - psi-biokognitif
+  def_types: redirect
+  target: teori-evolusi
   usage_note: >
   references:
-  - kbbi
+  - pinel_2018
 
 origin:
   - language: Latin
-    original: humanus
+    original: evolvere 
+  - language: Latin
+    original: prospectus
 
-stem: human
+stem: evolusi
 aliases:
-  - humanisme
-  - psikologi-humanistik
+  -
 related:
   - 
 
@@ -44,6 +46,6 @@ review:
   community_score:
 
 authors: ndw
-date_added: 2026-06-08
-last_modified: 2026-06-08
+date_added: 2026-06-09
+last_modified: 2026-06-09
 ---

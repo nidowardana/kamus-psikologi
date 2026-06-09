@@ -1,35 +1,34 @@
 ---
 layout: term
-term_id : psikologi-humanistis
-initial: P
+term_id : gordon-allport
+initial: G
 disambiguator:
 
-title: psikologi humanistis
+title: Gordon Allport
 
 senses:
 - def_idx: 1
   english:
-  - humanistic psychology
+  - Gordon Allport
   class:
   - noun
   categories: 
-  - teori
+  - tokoh
   fields: 
   - umum
   def_types: alternate
-  target: humanisme
+  target: gordon-william-allport
   usage_note: >
   references:
-  - kbbi
+  - spielman_2020
 
 origin:
-  - language: Latin
-    original: humanus
+  - language: 
+    original: 
 
-stem: human
+stem: 
 aliases:
-  - humanisme
-  - psikologi-humanistik
+  - gordon-william-allport
 related:
   - 
 
@@ -44,6 +43,6 @@ review:
   community_score:
 
 authors: ndw
-date_added: 2026-06-08
-last_modified: 2026-06-08
+date_added: 2026-06-09
+last_modified: 2026-06-09
 ---

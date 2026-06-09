@@ -1,35 +1,35 @@
 ---
 layout: term
-term_id : psikologi-humanistis
-initial: P
+term_id : charles-darwin
+initial: C
 disambiguator:
 
-title: psikologi humanistis
+title: Charles Darwin
 
 senses:
 - def_idx: 1
   english:
-  - humanistic psychology
+  - Charles Darwin
   class:
   - noun
   categories: 
-  - teori
+  - tokoh
   fields: 
   - umum
   def_types: alternate
-  target: humanisme
+  target: charles-robert-darwin
   usage_note: >
   references:
-  - kbbi
+  - spielman_2020
+  - pinel_2018
 
 origin:
-  - language: Latin
-    original: humanus
+  - language: 
+    original: 
 
-stem: human
+stem: 
 aliases:
-  - humanisme
-  - psikologi-humanistik
+  - charles-robert-darwin
 related:
   - 
 
@@ -44,6 +44,6 @@ review:
   community_score:
 
 authors: ndw
-date_added: 2026-06-08
-last_modified: 2026-06-08
+date_added: 2026-06-09
+last_modified: 2026-06-09
 ---

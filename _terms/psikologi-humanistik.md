@@ -4,12 +4,12 @@ term_id : psikologi-humanistik
 initial: P
 disambiguator:
 
-title: Psikologi Humanistik
+title: psikologi humanistik
 
 senses:
 - def_idx: 1
   english:
-  - Humanistic Psychology
+  - humanistic psychology
   class:
   - noun
   categories: 

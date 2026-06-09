@@ -1,35 +1,35 @@
 ---
 layout: term
-term_id : psikologi-humanistis
-initial: P
+term_id : jean-piaget
+initial: J
 disambiguator:
 
-title: psikologi humanistis
+title: Jean Piaget
 
 senses:
 - def_idx: 1
   english:
-  - humanistic psychology
+  - Jean Piaget
   class:
   - noun
   categories: 
-  - teori
+  - tokoh
   fields: 
   - umum
   def_types: alternate
-  target: humanisme
-  usage_note: >
+  target: jean-william-fritz-piaget
+  usage_note: > 
   references:
-  - kbbi
+  - spielman_2020
+  - weiten_2017
 
 origin:
-  - language: Latin
-    original: humanus
+  - language: 
+    original: 
 
-stem: human
+stem: 
 aliases:
-  - humanisme
-  - psikologi-humanistik
+  - jean-william-fritz-piaget
 related:
   - 
 
@@ -44,6 +44,6 @@ review:
   community_score:
 
 authors: ndw
-date_added: 2026-06-08
-last_modified: 2026-06-08
+date_added: 2026-06-09
+last_modified: 2026-06-09
 ---

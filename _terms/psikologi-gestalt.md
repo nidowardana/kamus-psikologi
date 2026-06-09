@@ -4,12 +4,12 @@ term_id : psikologi-gestalt
 initial: P
 disambiguator:
 
-title: Psikologi Gestalt
+title: psikologi Gestalt
 
 senses:
 - def_idx: 1
   english:
-  - Gestalt Psychology
+  - gestalt psychology
   class:
   - noun
   categories: 

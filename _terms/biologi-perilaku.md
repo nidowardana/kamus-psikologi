@@ -9,7 +9,8 @@ title: biologi perilaku
 senses:
 - def_idx: 1
   english:
-  - behavioiral biology
+  - behavioral biology
+  - behavioural biology
   class:
   - noun
   categories: 

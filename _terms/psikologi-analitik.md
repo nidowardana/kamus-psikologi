@@ -4,12 +4,12 @@ term_id : psikologi-analitik
 initial: P
 disambiguator:
 
-title: Psikologi Analitik
+title: psikologi analitik
 
 senses:
 - def_idx: 1
   english:
-  - Analytical Psychology
+  - analytical psychology
   class:
   - noun
   categories: 

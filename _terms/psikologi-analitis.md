@@ -4,12 +4,12 @@ term_id : psikologi-analitis
 initial: P
 disambiguator:
 
-title: Psikologi Analitis
+title: psikologi analitis
 
 senses:
 - def_idx: 1
   english:
-  - Analytical Psychology
+  - analytical psychology
   class:
   - noun
   categories: 
@@ -21,7 +21,7 @@ senses:
   definition: >
     Teori yang berfokus pada keseimbangan antara dorongan-dorongan yang saling bertentangan dalam kepribadian individu (misalnya: ekstraversi-introversi) serta peran dari ketidaksadaran kolektif.
   example: >
-    "Jung mengembangkan **Psikologi Analitis** yang menyimpang dari prinsip-prinsip fundamental dalam pendekatan ala Freud."
+    "Jung mengembangkan **psikologi analitis** yang menyimpang dari prinsip-prinsip fundamental dalam pendekatan ala Freud."
   usage_note: >
   references:
   - spielman_2020

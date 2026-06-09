@@ -21,7 +21,7 @@ senses:
   definition: >
     Prinsip dalam pengorganisasian persepsi di mana individu cenderung untuk mengelompokkan elemen-elemen yang tersusun secara kompleks, ambigu, atau tidak lengkap menjadi suatu bentuk paling sederhana yang utuh dan bermakna.
   example: >
-    "**Hukum Pragnanz** menjelaskan mengapa kita bisa melihat berbagi bentuk binatang di awan."
+    "**Hukum Pragnanz** menjelaskan mengapa kita bisa melihat berbagai bentuk binatang di awan."
   usage_note: >
   references:
   - weiten_2017

@@ -4,12 +4,12 @@ term_id : psikologi-fungsional
 initial: P
 disambiguator:
 
-title: Psikologi Fungsional
+title: psikologi fungsional
 
 senses:
 - def_idx: 1
   english:
-  - Functional Psychology
+  - functional psychology
   class:
   - noun
   categories: 
