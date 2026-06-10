@@ -13,7 +13,7 @@ senses:
   class:
   - noun
   categories: 
-  - konsep
+  - proses
   fields: 
   - umum
   - psi-biokognitif

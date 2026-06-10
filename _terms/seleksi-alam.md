@@ -13,7 +13,6 @@ senses:
   class:
   - noun
   categories: 
-  - fenomena
   - proses
   fields: 
   - umum

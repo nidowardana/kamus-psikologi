@@ -22,6 +22,7 @@ senses:
   example: >
     "Wilhelm Wundt dianggap sebagai bapak **Psikologi** modern."
   usage_note: >
+    Definisi dari istilah ini masih banyak diperdebatkan. Pada awalnya, psikologi sekedar dipahami secara harfiah sebagai 'ilmu tentang jiwa'.
   references:
   - weiten_2017
 
@@ -47,5 +48,5 @@ review:
 
 authors: ndw
 date_added: 2026-06-05
-last_modified: 2026-06-05
+last_modified: 2026-06-10
 ---

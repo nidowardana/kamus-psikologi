@@ -20,7 +20,7 @@ senses:
   definition: >
     Cabang ilmu Psikologi yang mempelajari proses-proses yang berkaitan dengan kematangan fisik, tetapi tidak hanya terbatas pada perubahan jasmani. Cabang ini juga mempelajari perubahan-perubahan sepanjang hayat dalam aspek kognitif, moral, perilaku sosial, dan atribut psikologi lainnya. 
   example: >
-    "Salah satu topik kajian dalam **psikologi perkembangan** adalah terkait bagaimana pemahaman mengenai benar dan salah berkembang dari masa kanak-kanak hingga lanjut usia. ."
+    "Salah satu topik kajian dalam **psikologi perkembangan** adalah terkait bagaimana pemahaman mengenai benar dan salah berkembang dari masa kanak-kanak hingga lanjut usia."
   usage_note: >
   references:
   - spielman_2020

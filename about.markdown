@@ -21,6 +21,16 @@ permalink: /tentang/
   </p>
 </section>
 
+<section class="callout">
+  <h2>Catatan Penggunaan Kamus Ini</h2>
+  <p>
+    Kamus ini dirancang untuk menjadi rujukan umum terkait istilah-istilah dalam ilmu Psikologi. Namun, perlu dipahami bahwa banyak konsep dalam Psikologi memiliki kompleksitas dan definisinya masih terus diperdebatkan oleh para ahli. Misalnya, definisi dari 'Psikologi' sendiri masih belum betul-betul disepakati hingga saat ini. Hal ini karena setiap ahli memiliki pandangan yang berbeda-beda serta dinamika dalam ilmu Psikologi itu sendiri.
+  </p>
+  <p>
+    Kamus ini tetap berusaha untuk mencakup kompleksitas makna dari setiap istilah yang ada, tetapi tidak bertujuan untuk memberikan definisi atau konstruksi teoretis. Oleh karena itu, sebaiknya pembaca memperlakukan definisi dalam kamus ini sebagai pengertian umum.
+  </p>
+</section>
+
 <section>
   <h2>Kontribusi</h2>
   <p>

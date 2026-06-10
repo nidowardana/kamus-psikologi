@@ -261,6 +261,10 @@ section {
   scroll-margin-top: 5rem;
 }
 
+.page-section h3[id] {
+  scroll-margin-top: 5rem;
+}
+
 .button-row {
   display: flex;
   flex-wrap: wrap;
