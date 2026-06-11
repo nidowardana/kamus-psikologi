@@ -19,7 +19,7 @@ senses:
   - umum
   def_types: term
   definition: >
-    Cabang ilmu Psikologi yang nempelajari aspek psikologis dalam prestasi olahraga (termasuk tentang motivasi dan kecemasan tampil) serta pengaruh olahraga terhadap kesejahteraan mental dan emosional.
+    Cabang ilmu Psikologi yang mempelajari aspek psikologis dalam prestasi olahraga (termasuk tentang motivasi dan kecemasan tampil) serta pengaruh olahraga terhadap kesejahteraan mental dan emosional.
   example: >
     "Peran **psikologi olahraga** semakin dibutuhkan di industri olahraga kompetitif."
   usage_note: >
