@@ -1,15 +1,15 @@
 ---
 layout: term
 term_id : sistem-saraf
-initial: N
+initial: S
 disambiguator:
 
-title: neuron
+title: sistem saraf
 
 senses:
 - def_idx: 1
   english:
-  - neuron
+  - nervous system
   class:
   - noun
   categories: 
