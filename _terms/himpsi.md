@@ -1,37 +1,35 @@
 ---
 layout: term
-term_id : pio
-initial: P
+term_id : himpsi
+initial: H
 disambiguator:
 
-title: P.I.O
+title: HIMPSI
 
 senses:
 - def_idx: 1
   english:
-  - I/O psychology
-  - I-O psychology
+  - HIMPSI
   class:
   - noun
   categories: 
-  - ilmu
+  - tokoh
   fields: 
   - umum
   def_types: alternate
-  target: psikologi-industri-dan-organisasi
+  target: himpunan-psikologi-indonesia
   usage_note: >
-    Akronim dari Psikologi Industri dan Organisasi.
+   Akronimnya dari Himpunan Psikologi Indonesia. 
   references:
-  - diener_2026
-  - spielman_2020
+  - 
 
 origin:
   - language: 
     original: 
 
-stem: organ
+stem: 
 aliases:
-  - psikologi-industri-dan-organisasi
+  - himpunan-psikologi-indonesia
 related:
   - 
 
@@ -46,6 +44,6 @@ review:
   community_score:
 
 authors: ndw
-date_added: 2026-06-10
-last_modified: 2026-06-10
+date_added: 2026-06-12
+last_modified: 2026-06-12
 ---
