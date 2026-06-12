@@ -19,7 +19,7 @@ senses:
   def_types: alternate
   target: himpunan-psikologi-indonesia
   usage_note: >
-   Akronimnya dari Himpunan Psikologi Indonesia. 
+   Akronim dari Himpunan Psikologi Indonesia. 
   references:
   - 
 

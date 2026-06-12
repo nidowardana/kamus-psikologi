@@ -4,7 +4,7 @@ term_id : pio
 initial: P
 disambiguator:
 
-title: P.I.O
+title: PIO
 
 senses:
 - def_idx: 1
