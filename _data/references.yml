@@ -149,5 +149,18 @@ howwit_2022:
   location: "Harlow, UK"
   isbn: 978-1-292-29579-4
 
+howwit_2011:
+  type: book
+  authors:
+    - family: "Howitt"
+      given: "Dennis"
+    - family: "Cramer"
+      given: "Duncan"
+  title: "Introduction to Research Methods in Psychology"
+  edition: "3rd"
+  date: 2011
+  publisher: "Pearson"
+  location: "Harlow, UK"
+  isbn: 978-0-273-73499-4
 
   
