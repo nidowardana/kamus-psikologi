@@ -1,15 +1,16 @@
 ---
 layout: term
-term_id : gonad
+term_id : glia
 initial: G
 disambiguator:
 
-title: gonad
+title: glia
 
 senses:
 - def_idx: 1
   english:
-  - gonad
+  - glia
+  - glial cell
   class:
   - noun
   categories: 
@@ -18,20 +19,20 @@ senses:
   - psi-biokognitif
   def_types: term
   definition: >
-    Kelenjar kelamin; Kelenjar yang menyekresi hormon yang penting untuk fungsi reproduksi serta motivasi dan perilaku seksual.
+    Sel dalam sistem saraf yang berfungsi untuk menyokong neuron, termasuk memberi insulasi yang penting untuk komunikasi antarneuron, menyediakan nutrien, dan mengangkut zat sisa.
   example: >
-    "Laki-laki dan perempuan memiliki **gonad** yang berbeda."
+    "Jumlah **glia** dan neuron dalam sistem saraf kurang lebih sama."
   usage_note: >
   references:
-  - kbbi
   - pinel_2018
   - spielman_2020
+  - weiten_2017
 
 origin:
   - language: Latin
-    original: gonad
+    original: glia
 
-stem: gonad
+stem: glia
 aliases:
   - 
 related:
@@ -48,6 +49,6 @@ review:
   community_score:
 
 authors: ndw
-date_added: 2026-06-18
-last_modified: 2026-06-18
+date_added: 2026-06-19
+last_modified: 2026-06-19
 ---

@@ -1,15 +1,15 @@
 ---
 layout: term
-term_id : gonad
-initial: G
+term_id : mielin
+initial: M
 disambiguator:
 
-title: gonad
+title: mielin
 
 senses:
 - def_idx: 1
   english:
-  - gonad
+  - myelin
   class:
   - noun
   categories: 
@@ -18,24 +18,23 @@ senses:
   - psi-biokognitif
   def_types: term
   definition: >
-    Kelenjar kelamin; Kelenjar yang menyekresi hormon yang penting untuk fungsi reproduksi serta motivasi dan perilaku seksual.
+    Zat yang mengandung lemak dan dihasilkan oleh oligodendrosit untuk menyelubungi akson dari neuron.
   example: >
-    "Laki-laki dan perempuan memiliki **gonad** yang berbeda."
+    "Kerusakan selubung **mielin** ditemukan pada penyakit sklerosis ganda."
   usage_note: >
   references:
-  - kbbi
   - pinel_2018
-  - spielman_2020
+
 
 origin:
-  - language: Latin
-    original: gonad
+  - language: Yunani
+    original: myelos
 
-stem: gonad
+stem: mielin
 aliases:
   - 
 related:
-  - 
+  - oligodendrosit
 
 status: established
 status_note: >
@@ -48,6 +47,6 @@ review:
   community_score:
 
 authors: ndw
-date_added: 2026-06-18
-last_modified: 2026-06-18
+date_added: 2026-06-19
+last_modified: 2026-06-19
 ---

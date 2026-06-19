@@ -1,15 +1,15 @@
 ---
 layout: term
-term_id : gonad
-initial: G
+term_id : mikroglia
+initial: M
 disambiguator:
 
-title: gonad
+title: mikroglia
 
 senses:
 - def_idx: 1
   english:
-  - gonad
+  - microglia
   class:
   - noun
   categories: 
@@ -18,20 +18,18 @@ senses:
   - psi-biokognitif
   def_types: term
   definition: >
-    Kelenjar kelamin; Kelenjar yang menyekresi hormon yang penting untuk fungsi reproduksi serta motivasi dan perilaku seksual.
+    Salah satu jenis glia (sel dalam sistem saraf) yang memiliki fungsi imun untuk menanggapi kerusakan atau penyakit.
   example: >
-    "Laki-laki dan perempuan memiliki **gonad** yang berbeda."
+    "**Mikroglia** berukuran lebih kecil dibanding sel glia lainnya."
   usage_note: >
   references:
-  - kbbi
   - pinel_2018
-  - spielman_2020
 
 origin:
   - language: Latin
-    original: gonad
+    original: mikro-glia
 
-stem: gonad
+stem: glia
 aliases:
   - 
 related:
@@ -48,6 +46,6 @@ review:
   community_score:
 
 authors: ndw
-date_added: 2026-06-18
-last_modified: 2026-06-18
+date_added: 2026-06-19
+last_modified: 2026-06-19
 ---

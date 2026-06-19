@@ -1,43 +1,3 @@
-hasan_1981:
-  type: book
-  authors:
-    - family: "Hasan"
-      given: "F."
-    - family: "dkk"
-  title: "Kamus Istilah Psikologi"
-  date: 1981
-  publisher: "Pusat Pembinaan dan Pengembangan Bahasa Departemen Pendidikan dan Kebudayaan"
-  location: "Jakarta"
-
-kbbi:
-  type: dictionary
-  organization: "Badan Pengembangan dan Pembinaan Bahasa"
-  title: "Kamus Besar Bahasa Indonesia"
-  date: 2016
-  publisher: "Kementerian Pendidikan Dasar dan Menengah Republik Indonesia"
-  url: https://kbbi.kemendikdasmen.go.id/
-
-sadarjoen_2020:
-  type: book
-  authors:
-    - family: "Sadarjoen"
-      given: "Sawitri Supardi"
-  title: "Kamus Psikologi Forensik"
-  date: 2020
-  publisher: "Badan Pengembangan dan Pembinaan Bahasa Kementerian Pendidikan dan Kebudayaan"
-  location: "Jakarta"
-  isbn: 978-623-307-011-9
-
-kridalaksana_1982:
-  type: book
-  authors:
-    - family: "Kridalaksana"
-      given: "Harimurti"
-  title: "Kamus Lingusitik"
-  date: 1982
-  publisher: "Gramedia"
-  location: "Jakarta"
-
 diener_2026:
   type: book
   authors:
@@ -51,6 +11,129 @@ diener_2026:
   publisher: "DEF publishers"
   location: "Champaign"
   url: http://noba.to/d95jpvm7
+
+dsm_v_tr:
+  type: book
+  organization: "American Psychiatric Association"
+  title: "Diagnostic and Statistical Manual of Mental Disorders, Fifth Edition - Text Revision (DSM-5-TR)"
+  date: 2020
+  publisher: "American Psychiatric Publishing"
+  location: "Washington, D.C."
+  isbn: 978-0-89042-576-3
+
+hasan_1981:
+  type: book
+  authors:
+    - family: "Hasan"
+      given: "F."
+    - family: "dkk"
+  title: "Kamus Istilah Psikologi"
+  date: 1981
+  publisher: "Pusat Pembinaan dan Pengembangan Bahasa Departemen Pendidikan dan Kebudayaan"
+  location: "Jakarta"
+
+howwit_2011:
+  type: book
+  authors:
+    - family: "Howitt"
+      given: "Dennis"
+    - family: "Cramer"
+      given: "Duncan"
+  title: "Introduction to Research Methods in Psychology"
+  edition: "3rd"
+  date: 2011
+  publisher: "Pearson"
+  location: "Harlow, UK"
+  isbn: 978-0-273-73499-4
+
+howwit_2022:
+ type: book
+ authors:
+   - family: "Howitt"
+     given: "Dennis"
+ title: "Introduction to Forensic and Criminal Psychology"
+ edition: "7th"
+ date: 2022
+ publisher: "Pearson"
+ location: "Harlow, UK"
+ isbn: 978-1-292-29579-4
+
+kbbi:
+  type: dictionary
+  organization: "Badan Pengembangan dan Pembinaan Bahasa"
+  title: "Kamus Besar Bahasa Indonesia"
+  date: 2016
+  publisher: "Kementerian Pendidikan Dasar dan Menengah Republik Indonesia"
+  url: https://kbbi.kemendikdasmen.go.id/
+
+krause_2019:
+  type: book
+  authors:
+    - family: "Krause"
+      given: "Mark A."
+    - family: "Corts"
+      given: "Daniel Paul"
+    - family: "Smith"
+      given: "Stephen"
+  title: "An Introduction to Psychological Science"
+  edition: "3rd Canadian Edition"
+  date: 2019
+  publisher: "Pearson"
+  location: "Toronto"
+  isbn: 978-0-13-542412-4
+
+kridalaksana_1982:
+  type: book
+  authors:
+    - family: "Kridalaksana"
+      given: "Harimurti"
+  title: "Kamus Lingusitik"
+  date: 1982
+  publisher: "Gramedia"
+  location: "Jakarta"
+
+maslim_2013:
+  type: book
+  authors:
+    - family: "Maslim"
+      given: "Rusdi"
+  title: "Diagnosis Gangguan Jiwa: Rujukan Ringkas PPDGJ-III dan DSM-5"
+  date: 2013
+  publisher: "Bagian Ilmu Kedokteran Jiwa FK-Unika Atmajaya"
+  location: "Jakarta"
+
+pinel_2018:
+  type: book
+  authors:
+    - family: "Pinel"
+      given: "John P. J."
+    - family: "Barnes"
+      given: "Steven J."
+  title: "Biopsychology"
+  edition: "10th Global Edition"
+  date: 2018
+  publisher: "Pearson"
+  location: "New York"
+  isbn: 978-1-292-15847-1
+
+ppnpk_1:
+  type: book
+  organization: "Ikatan Psikologi Klinis Indonesia"
+  title: "Pedoman Pelayanan Psikologi Klinis Indonesia (PPNPK) Edisi 1"
+  date: 2021
+  publisher: "Ikatan Psikologi Klinis Indonesia"
+  location: "Jakarta"
+
+sadarjoen_2020:
+  type: book
+  authors:
+    - family: "Sadarjoen"
+      given: "Sawitri Supardi"
+  title: "Kamus Psikologi Forensik"
+  date: 2020
+  publisher: "Badan Pengembangan dan Pembinaan Bahasa Kementerian Pendidikan dan Kebudayaan"
+  location: "Jakarta"
+  isbn: 978-623-307-011-9
 
 spielman_2020:
   type: book
@@ -80,87 +163,17 @@ weiten_2017:
   location: "Australia"
   isbn: 978-1-305-49820-4
 
-dsm_v_tr:
-  type: book
-  organization: "American Psychiatric Association"
-  title: "Diagnostic and Statistical Manual of Mental Disorders, Fifth Edition - Text Revision (DSM-5-TR)"
-  date: 2020
-  publisher: "American Psychiatric Publishing"
-  location: "Washington, D.C."
-  isbn: 978-0-89042-576-3
+who_2025:
+  type: fact_sheet
+  organization: "World Health Organization"
+  title: "Mental Health"
+  date: 2025-10-08
+  url: https://www.who.int/news-room/fact-sheets/detail/mental-health-strengthening-our-response
 
-ppnpk_1:
-  type: book
-  organization: "Ikatan Psikologi Klinis Indonesia"
-  title: "Pedoman Pelayanan Psikologi Klinis Indonesia (PPNPK) Edisi 1"
-  date: 2021
-  publisher: "Ikatan Psikologi Klinis Indonesia"
-  location: "Jakarta"
 
-krause_2019:
-  type: book
-  authors:
-    - family: "Krause"
-      given: "Mark A."
-    - family: "Corts"
-      given: "Daniel Paul"
-    - family: "Smith"
-      given: "Stephen"
-  title: "An Introduction to Psychological Science"
-  edition: "3rd Canadian Edition"
-  date: 2019
-  publisher: "Pearson"
-  location: "Toronto"
-  isbn: 978-0-13-542412-4
 
-maslim_2013:
-  type: book
-  authors:
-    - family: "Maslim"
-      given: "Rusdi"
-  title: "Diagnosis Gangguan Jiwa: Rujukan Ringkas PPDGJ-III dan DSM-5"
-  date: 2013
-  publisher: "Bagian Ilmu Kedokteran Jiwa FK-Unika Atmajaya"
-  location: "Jakarta"
 
-pinel_2018:
-  type: book
-  authors:
-    - family: "Pinel"
-      given: "John P. J."
-    - family: "Barnes"
-      given: "Steven J."
-  title: "Biopsychology"
-  edition: "10th Global Edition"
-  date: 2018
-  publisher: "Pearson"
-  location: "New York"
-  isbn: 978-1-292-15847-1
 
-howwit_2022:
-  type: book
-  authors:
-    - family: "Howitt"
-      given: "Dennis"
-  title: "Introduction to Forensic and Criminal Psychology"
-  edition: "7th"
-  date: 2022
-  publisher: "Pearson"
-  location: "Harlow, UK"
-  isbn: 978-1-292-29579-4
 
-howwit_2011:
-  type: book
-  authors:
-    - family: "Howitt"
-      given: "Dennis"
-    - family: "Cramer"
-      given: "Duncan"
-  title: "Introduction to Research Methods in Psychology"
-  edition: "3rd"
-  date: 2011
-  publisher: "Pearson"
-  location: "Harlow, UK"
-  isbn: 978-0-273-73499-4
 
-  
+
