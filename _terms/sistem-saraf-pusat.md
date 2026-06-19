@@ -1,15 +1,15 @@
 ---
 layout: term
-term_id : sistem-saraf
+term_id : sistem-saraf-pusat
 initial: S
 disambiguator:
 
-title: sistem saraf
+title: sistem saraf pusat
 
 senses:
 - def_idx: 1
   english:
-  - nervous system
+  - central nervous system
   class:
   - noun
   categories: 
@@ -18,23 +18,26 @@ senses:
   - psi-biokognitif
   def_types: term
   definition: >
-    Sistem jaringan yang menyalurkan rangsangan dari dan menuju alat-alat tubuh, sehingga mengatur kerja sama di antara mereka.
+    Bagian dari sistem saraf yang mencakup otak (yang terletak di dalam tengkorak) dan sumsum tulang belakang (di dalam tulang belakang).
   example: >
-    "Pada spesies bertulang belakang, **sistem saraf** dapat dibagi menjadi **sistem saraf** pusat dan **sistem saraf** perifer."
+    "Sebagian besar pemrosesan informasi terjadi di dalam **sistem saraf pusat**."
   usage_note: >
   references:
-  - kbbi
   - spielman_2020
+  - pinel_2018
+  - weiten_2017
 
 origin:
   - language: Yunani
     original: systema
   - language: Arab
     original: sarf
+  - language: Indonesia
+    original: pusat
 
 stem: saraf
 aliases:
-  - 
+  -
 related:
   - 
 
@@ -49,6 +52,6 @@ review:
   community_score:
 
 authors: ndw
-date_added: 2026-06-12
-last_modified: 2026-06-12
+date_added: 2026-06-19
+last_modified: 2026-06-19
 ---

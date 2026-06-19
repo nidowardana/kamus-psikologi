@@ -1,15 +1,15 @@
 ---
 layout: term
-term_id : sistem-saraf
+term_id : saraf
 initial: S
 disambiguator:
 
-title: sistem saraf
+title: saraf
 
 senses:
 - def_idx: 1
   english:
-  - nervous system
+  - nerve
   class:
   - noun
   categories: 
@@ -18,17 +18,14 @@ senses:
   - psi-biokognitif
   def_types: term
   definition: >
-    Sistem jaringan yang menyalurkan rangsangan dari dan menuju alat-alat tubuh, sehingga mengatur kerja sama di antara mereka.
+    Jaringan yang menyalurkan rangsangan dari dan menuju alat-alat tubuh.
   example: >
-    "Pada spesies bertulang belakang, **sistem saraf** dapat dibagi menjadi **sistem saraf** pusat dan **sistem saraf** perifer."
+    "Pada spesies bertulang belakang, sistem **saraf** dapat dibagi menjadi sistem **saraf** pusat dan sistem **saraf** perifer."
   usage_note: >
   references:
   - kbbi
-  - spielman_2020
 
 origin:
-  - language: Yunani
-    original: systema
   - language: Arab
     original: sarf
 
@@ -49,6 +46,6 @@ review:
   community_score:
 
 authors: ndw
-date_added: 2026-06-12
-last_modified: 2026-06-12
+date_added: 2026-06-19
+last_modified: 2026-06-19
 ---

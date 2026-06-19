@@ -1,15 +1,15 @@
 ---
 layout: term
-term_id : sistem-saraf
-initial: S
+term_id : neurotransmiter
+initial: N
 disambiguator:
 
-title: sistem saraf
+title: neurotransmiter
 
 senses:
 - def_idx: 1
   english:
-  - nervous system
+  - neurotransmitter
   class:
   - noun
   categories: 
@@ -18,23 +18,24 @@ senses:
   - psi-biokognitif
   def_types: term
   definition: >
-    Sistem jaringan yang menyalurkan rangsangan dari dan menuju alat-alat tubuh, sehingga mengatur kerja sama di antara mereka.
+    Senyawa kimia dalam sistem saraf yang menyalurkan informasi dari satu neuron ke neuron lainnya.
   example: >
-    "Pada spesies bertulang belakang, **sistem saraf** dapat dibagi menjadi **sistem saraf** pusat dan **sistem saraf** perifer."
+    "Dopamin adalah salah satu contoh **neurotransmiter** yang menimbulkan perasaan senang."
   usage_note: >
   references:
-  - kbbi
+  - pinel_2018
   - spielman_2020
+  - weiten_2017
 
 origin:
   - language: Yunani
-    original: systema
-  - language: Arab
-    original: sarf
+    original: neuron
+  - language: Latin
+    original: transmittere
 
-stem: saraf
+stem: neuron
 aliases:
-  - 
+  -
 related:
   - 
 
