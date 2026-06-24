@@ -1,15 +1,15 @@
 ---
 layout: term
-term_id : agonis
+term_id : antagonis
 initial: A
 disambiguator:
 
-title: agonis
+title: antagonis
 
 senses:
 - def_idx: 1
   english:
-  - agonist
+  - antagonist
   class:
   - noun
   categories: 
@@ -19,9 +19,9 @@ senses:
   - psi-biokognitif
   def_types: term
   definition: >
-    Obat atau zat yang menyokong (dengan cara menirukan atau memperkuat) pengaruh dari neurotransmiter tertentu.
+    Obat atau zat yang menghambat atau mengurangi pengaruh dari neurotransmiter tertentu.
   example: >
-    "Heroin adalah contoh **agonis** yang dapat menimbulkan efek layaknya dopamin."
+    "Haloperidol adalah contoh **antagonis** yang menghambat kerja dopamin dan digunakan untuk menekan gejala positif dari skizofrenia."
   usage_note: >
   references:
   - spielman_2020
@@ -29,13 +29,13 @@ senses:
 
 origin:
   - language: Yunani
-    original: agonistes
+    original: anti-agonizesthai
 
-stem: agonis
+stem: antagonis
 aliases:
   -
 related:
-  - antagonis
+  - agonis
 
 status: established
 status_note: >
@@ -48,6 +48,6 @@ review:
   community_score:
 
 authors: ndw
-date_added: 2026-06-19
-last_modified: 2026-06-19
+date_added: 2026-06-24
+last_modified: 2026-06-24
 ---
