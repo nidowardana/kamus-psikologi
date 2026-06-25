@@ -1,15 +1,15 @@
 ---
 layout: term
-term_id : ekofraksia
-initial: E
+term_id : kopropraksia
+initial: K
 disambiguator:
 
-title: ekofraksia
+title: kopropraksia
 
 senses:
 - def_idx: 1
   english:
-  - echopraxia
+  - copropraxia
   class:
   - noun
   categories: 
@@ -18,27 +18,28 @@ senses:
   - psi-klinis
   def_types: term
   definition: >
-    Gejala patologis di mana individu menirukan gerakan orang lain.
+    Gejala patologis di mana individu memperagakan gerakan seksual atau gerakan tabu lainnya.
   example: >
-    "Latah ditandai dengan **ekofraksia**, utamanya ketika sedang terkejut."
+    "**Kopropraksia** kadang dapat diamati pada individu dengan sindrom Tourette."
   usage_note: >
   references:
   - dsm_5_tr
 
 origin:
   - language: Yunani 
-    original: echo-praxis
+    original: kopro-praxis
 
 stem: praksia
 aliases:
-  - ekopraksia
+  - 
 related:
   - 
 
-status: established
+status: new
 status_note: >
+  Istilah ini belum dikenal dalam Kamus Besar Bahasa Indonesia. 
 review:
-- proposer:
+- proposer: Nido D. Wardana
   reviewer:
   editor:
   opponent:

@@ -1,34 +1,37 @@
 ---
 layout: term
-term_id : ekopraksia
-initial: E
+term_id : palilalia
+initial: P
 disambiguator:
 
-title: ekopraksia
+title: palilalia
 
 senses:
 - def_idx: 1
   english:
-  - echopraxia
+  - palilalia
   class:
   - noun
   categories: 
   - kondisi
   fields: 
   - psi-klinis
-  def_types: alternate
-  target: ekofraksia
+  def_types: term
+  definition: >
+    Gejala patologis di mana individu mengulangi suara atau kata-katanya sendiri tanpa disengaja.
+  example: >
+    "**Palilalia** kadang dapat diamati pada individu dengan sindrom Tourette."
   usage_note: >
   references:
-  - kbbi
+  - dsm_5_tr
 
 origin:
   - language: Yunani 
-    original: echo-praxis
+    original: palin-lalia
 
-stem: praksia
+stem: lalia
 aliases:
-  - ekofraksia
+  - 
 related:
   - 
 

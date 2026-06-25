@@ -1,34 +1,35 @@
 ---
 layout: term
-term_id : ekopraksia
-initial: E
+term_id : tekanan
+initial: T
 disambiguator:
 
-title: ekopraksia
+title: tekanan
 
 senses:
 - def_idx: 1
   english:
-  - echopraxia
+  - stress
   class:
   - noun
   categories: 
-  - kondisi
+  - konsep
   fields: 
+  - umum
   - psi-klinis
   def_types: alternate
-  target: ekofraksia
+  target: stres
   usage_note: >
   references:
-  - kbbi
+  - hasan_1981
 
 origin:
-  - language: Yunani 
-    original: echo-praxis
+  - language: Indonesia
+    original: tekanan
 
-stem: praksia
+stem: tekan
 aliases:
-  - ekofraksia
+  - stres
 related:
   - 
 
@@ -43,6 +44,6 @@ review:
   community_score:
 
 authors: ndw
-date_added: 2026-06-26
-last_modified: 2026-06-26
+date_added: 2026-06-25
+last_modified: 2026-06-25
 ---

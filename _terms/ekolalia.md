@@ -1,34 +1,37 @@
 ---
 layout: term
-term_id : ekopraksia
+term_id : ekolalia
 initial: E
 disambiguator:
 
-title: ekopraksia
+title: ekolalia
 
 senses:
 - def_idx: 1
   english:
-  - echopraxia
+  - echolalia
   class:
   - noun
   categories: 
   - kondisi
   fields: 
   - psi-klinis
-  def_types: alternate
-  target: ekofraksia
+  def_types: term
+  definition: >
+    Gejala patologis di mana individu mengulangi kata atau frasa yang baru didengarnya.
+  example: >
+    "Latah ditandai dengan **ekolalia**, utamanya ketika sedang terkejut."
   usage_note: >
   references:
-  - kbbi
+  - dsm_5_tr
 
 origin:
   - language: Yunani 
-    original: echo-praxis
+    original: echo-lalia
 
-stem: praksia
+stem: lalia
 aliases:
-  - ekofraksia
+  - 
 related:
   - 
 
