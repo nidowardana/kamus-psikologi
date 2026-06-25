@@ -12,7 +12,7 @@ diener_2026:
   location: "Champaign"
   url: http://noba.to/d95jpvm7
 
-dsm_v_tr:
+dsm_5_tr:
   type: book
   organization: "American Psychiatric Association"
   title: "Diagnostic and Statistical Manual of Mental Disorders, Fifth Edition - Text Revision (DSM-5-TR)"
@@ -20,6 +20,15 @@ dsm_v_tr:
   publisher: "American Psychiatric Publishing"
   location: "Washington, D.C."
   isbn: 978-0-89042-576-3
+
+dsm_iv_tr:
+  type: book
+  organization: "American Psychiatric Association"
+  title: "Diagnostic and Statistical Manual of Mental Disorders, Fourth Edition - Text Revision (DSM-IV-TR)"
+  date: 2000
+  publisher: "American Psychiatric Publishing"
+  location: "Washington, D.C."
+  isbn:  978-0890420256
 
 hasan_1981:
   type: book
