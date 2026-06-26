@@ -33,7 +33,9 @@ origin:
 
 stem: ganggu
 aliases:
-  -
+  - gangguan-psikologis
+  - gangguan-psikiatris
+  - psikopatologi
 related:
   - 
 
@@ -49,5 +51,5 @@ review:
 
 authors: ndw
 date_added: 2026-06-25
-last_modified: 2026-06-25
+last_modified: 2026-06-26
 ---

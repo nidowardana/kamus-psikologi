@@ -1,3 +1,12 @@
+apa_dict:
+  type: dictionary
+  organization: "American Psychological Association"
+  title: "APA Dictionary of Psychology"
+  date: 2023
+  publisher: "American Psychological Association"
+  location: "Washington, D.C."
+  url: https://dictionary.apa.org/
+
 diener_2026:
   type: book
   authors:
@@ -40,6 +49,23 @@ hasan_1981:
   date: 1981
   publisher: "Pusat Pembinaan dan Pengembangan Bahasa Departemen Pendidikan dan Kebudayaan"
   location: "Jakarta"
+
+hooley_2021:
+  type: book
+  authors:
+    - family: "Hooley"
+      given: "J. M."
+    - family: "Nock"
+      given: "M. K."
+    - family: "Butcher"
+      given: "J. N."
+  title: "Abnormal Psychology"
+  edition: "18th, Global Edition"
+  date: 2021
+  publisher: "Pearson"
+  location: "Harlow, UK"
+  isbn: 978-1-292-36456-8
+
 
 howwit_2011:
   type: book
