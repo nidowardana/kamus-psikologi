@@ -16,7 +16,7 @@ senses:
   - anatomi
   fields: 
   - psi-biokognitif
-  def_types: alternate
+  def_types: redirect
   target: sistem-saraf-somatik
   usage_note: >
     Istilah ini menekankan pada cara kerja sistem ini yang dapat dikendalikan secara sadar atau sukarela. Hal ini kontras dengan sistem saraf otonom yang bekerja tanpa memerlukan kesadaran.

@@ -16,7 +16,7 @@ senses:
   - anatomi
   fields: 
   - psi-biokognitif
-  def_types: alternate
+  def_types: redirect
   target: sistem-saraf-tepi
   usage_note: >
   references:

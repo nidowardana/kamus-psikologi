@@ -1,15 +1,15 @@
 ---
 layout: term
-term_id : kelenjar-pituitari
-initial: K
+term_id : celah-sinaptik
+initial: C
 disambiguator:
 
-title: kelenjar pituitari
+title: celah-sinaptik
 
 senses:
 - def_idx: 1
   english:
-  - pituitary gland
+  - synaptic cleft
   class:
   - noun
   categories: 
@@ -17,21 +17,22 @@ senses:
   fields: 
   - psi-biokognitif
   def_types: redirect
-  target: hipofisis
+  target: sinaps
   usage_note: >
-    Meskipun istilah ini sudah dikenal dengan baik, kata "pituitari" masih tidak dikenal dalam Kamus Besar Bahasa Indonesia.
   references:
-  - pinel_2018
+  - spielman_2020
+  - weiten_2017
 
 origin:
   - language: Indonesia
-    original: kelenjar
-  - language: Latin
-    original: pituita
+    original: celah
+  - language: Yunani
+    original: synaptein
 
-stem: kelenjar
+
+stem: sinaps
 aliases:
-  - hipofisis
+  - sinaps
 related:
   - 
 
@@ -46,6 +47,6 @@ review:
   community_score:
 
 authors: ndw
-date_added: 2026-06-19
-last_modified: 2026-06-19
+date_added: 2026-06-26
+last_modified: 2026-06-26
 ---

@@ -1,15 +1,15 @@
 ---
 layout: term
-term_id : kelenjar-pituitari
-initial: K
+term_id : tombol-terminal
+initial: T
 disambiguator:
 
-title: kelenjar pituitari
+title: tombol-terminal
 
 senses:
 - def_idx: 1
   english:
-  - pituitary gland
+  - terminal button
   class:
   - noun
   categories: 
@@ -17,23 +17,24 @@ senses:
   fields: 
   - psi-biokognitif
   def_types: redirect
-  target: hipofisis
+  target: terminal-akson
   usage_note: >
-    Meskipun istilah ini sudah dikenal dengan baik, kata "pituitari" masih tidak dikenal dalam Kamus Besar Bahasa Indonesia.
   references:
   - pinel_2018
+  - spielman_2020
+  - weiten_2017
 
 origin:
   - language: Indonesia
-    original: kelenjar
+    original: tombol
   - language: Latin
-    original: pituita
+    original: terminus
 
-stem: kelenjar
+stem: akson
 aliases:
-  - hipofisis
+  - terminal-akson
 related:
-  - 
+  - akson
 
 status: established
 status_note: >
@@ -46,6 +47,6 @@ review:
   community_score:
 
 authors: ndw
-date_added: 2026-06-19
-last_modified: 2026-06-19
+date_added: 2026-06-26
+last_modified: 2026-06-26
 ---

@@ -1,35 +1,38 @@
 ---
 layout: term
-term_id : edward-titchener
-initial: E
+term_id : diagnosa
+initial: D
 disambiguator:
 
-title: Edward Titchener
+title: diagnosa
 
 senses:
 - def_idx: 1
   english:
-  - Edward Titchener
+  - diagnosis
   class:
   - noun
   categories: 
-  - tokoh
+  - proses
+  - konsep
   fields: 
-  - umum
+  - psi-klinis
   def_types: alternate
-  target: edward-bradford-titchener
+  target: diagnosis
+  usage_note: >
   references:
-  - weiten_2017
+  - kbbi
 
 origin:
-  - language: 
-    original: 
+  - language: Yunani
+    original: dia-gignoskein
 
-stem: 
+stem: diagnosis
 aliases:
-  - edward-bradford-titchener
+  - diagnosis
+  - dx
 related:
-  - strukturalisme
+  - 
 
 status: established
 status_note: >
@@ -42,6 +45,6 @@ review:
   community_score:
 
 authors: ndw
-date_added: 2026-06-06
-last_modified: 2026-06-06
+date_added: 2026-06-26
+last_modified: 2026-06-26
 ---

@@ -16,7 +16,7 @@ senses:
   - konsep
   fields: 
   - psi-klinis
-  def_types: alternate
+  def_types: redirect
   target: gangguan-mental
   usage_note: >
   references:

@@ -16,7 +16,7 @@ senses:
   - tokoh
   fields: 
   - umum
-  def_types: redirect
+  def_types: alternate
   target: burrhus-frederic-skinner
   references:
   - weiten_2017

@@ -16,7 +16,7 @@ senses:
   - konsep
   fields: 
   - psi-klinis
-  def_types: alternate
+  def_types: redirect
   target: gejala
   references:
   - hasan_1981

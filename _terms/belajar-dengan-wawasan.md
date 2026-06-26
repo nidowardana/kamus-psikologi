@@ -17,7 +17,7 @@ senses:
   - proses
   fields: 
   - psi-perkembangan
-  def_types: alternate
+  def_types: redirect
   target: belajar-melalui-wawasan
   usage_note: >
   references:

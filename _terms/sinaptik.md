@@ -1,38 +1,38 @@
 ---
 layout: term
-term_id : gangguan-psikiatris
-initial: G
+term_id : sinaptik
+initial: S
 disambiguator:
 
-title: gangguan psikiatris
+title: sinaptik
 
 senses:
 - def_idx: 1
   english:
-  - psychiatric disorder
+  - synaptic
   class:
-  - noun
+  - adj
   categories: 
-  - kondisi
+  - konsep
   fields: 
-  - psi-klinis
-  def_types: redirect
-  target: gangguan-mental
+  - psi-biokognitif
+  def_types: term
+  definition: >
+    Berkaitan dengan sinaps.
+  example: >
+    "Transmisi **sinaptik** terjadi melalui pertukaran bahan kimia antara terminal akson sebuah neuron dengan dendrit neuron lainnya."
   usage_note: >
   references:
-  - apa_dict
+  - kbbi
 
 origin:
-  - language: Indonesia
-    original: gangguan
   - language: Yunani
-    original: psyche-iatros
+    original: synaptein
 
-stem: ganggu
+
+stem: sinaps
 aliases:
-  - gangguan-mental
-  - gangguan-psikologis
-  - psikopatologi
+  - 
 related:
   - 
 

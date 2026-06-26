@@ -17,7 +17,7 @@ senses:
   fields: 
   - umum
   - psi-biokognitif
-  def_types: alternate
+  def_types: redirect
   target: hukum-pragnanz
   usage_note: >
     Istilah ini kadang lebih disukai karena sifatnya yang lebih deskriptif dibandingkan istilah aslinya (hukum Pragnanz).

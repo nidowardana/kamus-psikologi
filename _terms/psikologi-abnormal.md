@@ -16,7 +16,7 @@ senses:
   - ilmu
   fields: 
   - umum
-  def_types: alternate
+  def_types: redirect
   target: psikopatologi
   usage_note: >
   references:

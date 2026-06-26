@@ -16,7 +16,7 @@ senses:
   - teori
   fields: 
   - umum
-  def_types: alternate
+  def_types: redirect
   target: humanisme
   usage_note: >
   references:

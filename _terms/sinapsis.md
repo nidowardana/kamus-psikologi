@@ -1,35 +1,37 @@
 ---
 layout: term
-term_id : edward-titchener
-initial: E
+term_id : sinapsis
+initial: S
 disambiguator:
 
-title: Edward Titchener
+title: sinapsis
 
 senses:
 - def_idx: 1
   english:
-  - Edward Titchener
+  - synapse
   class:
   - noun
   categories: 
-  - tokoh
+  - anatomi
   fields: 
-  - umum
+  - psi-biokognitif
   def_types: alternate
-  target: edward-bradford-titchener
+  target: sinaps
+  usage_note: >
   references:
-  - weiten_2017
+  - kbbi
 
 origin:
-  - language: 
-    original: 
+  - language: Yunani
+    original: synaptein
 
-stem: 
+
+stem: sinaps
 aliases:
-  - edward-bradford-titchener
+  - sinaps
 related:
-  - strukturalisme
+  - 
 
 status: established
 status_note: >
@@ -42,6 +44,6 @@ review:
   community_score:
 
 authors: ndw
-date_added: 2026-06-06
-last_modified: 2026-06-06
+date_added: 2026-06-26
+last_modified: 2026-06-26
 ---

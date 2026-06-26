@@ -18,7 +18,7 @@ senses:
   - psi-klinis
   def_types: term
   definition: >
-    Gejala patologis di mana individu mengucapkan kata-kata yang secara sosial dianggap tidak baik, misalnya umpatan, sumpah serapah, atau olokan yang menyinggung suku, agaman, rasa, dan antargolongan lainnya.
+    Gejala patologis di mana individu mengucapkan kata-kata yang secara sosial dianggap tidak baik, misalnya umpatan, sumpah serapah, atau olokan yang menyinggung suku, agama, rasa, dan antargolongan lainnya.
   example: >
     "**Koprolalia** kadang dapat diamati pada individu dengan sindrom Tourette."
   usage_note: >

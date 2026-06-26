@@ -1,38 +1,37 @@
 ---
 layout: term
-term_id : gangguan-psikiatris
-initial: G
+term_id : neural
+initial: N
 disambiguator:
 
-title: gangguan psikiatris
+title: neural
 
 senses:
 - def_idx: 1
   english:
-  - psychiatric disorder
+  - neural
   class:
-  - noun
+  - adj
   categories: 
-  - kondisi
+  - konsep
   fields: 
-  - psi-klinis
-  def_types: redirect
-  target: gangguan-mental
+  - psi-biokognitif
+  def_types: term
+  definition: >
+    Berkaitan dengan saraf.
+  example: >
+    "Di terminal akson, sinyal **neural** berubah dari sinyal listrik menjadi sinyal kimiawi."
   usage_note: >
   references:
-  - apa_dict
+  - kbbi
 
 origin:
-  - language: Indonesia
-    original: gangguan
   - language: Yunani
-    original: psyche-iatros
+    original: neuron
 
-stem: ganggu
+stem: neuron
 aliases:
-  - gangguan-mental
-  - gangguan-psikologis
-  - psikopatologi
+  -
 related:
   - 
 

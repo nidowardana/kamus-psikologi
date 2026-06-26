@@ -17,7 +17,7 @@ senses:
   fields: 
   - umum
   - psi-klinis
-  def_types: alternate
+  def_types: redirect
   target: stres
   usage_note: >
   references:

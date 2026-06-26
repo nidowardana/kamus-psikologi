@@ -1,35 +1,38 @@
 ---
 layout: term
-term_id : edward-titchener
-initial: E
+term_id : dx
+initial: D
 disambiguator:
 
-title: Edward Titchener
+title: dx
 
 senses:
 - def_idx: 1
   english:
-  - Edward Titchener
+  - Dx
   class:
   - noun
   categories: 
-  - tokoh
+  - konsep
   fields: 
-  - umum
+  - psi-klinis
   def_types: alternate
-  target: edward-bradford-titchener
+  target: diagnosis
+  usage_note: >
+    Singkatan ini biasanya digunakan dalam dokumen-dokumen klinik.
   references:
-  - weiten_2017
+  - apa_dict
+  - pnppk_1
 
 origin:
   - language: 
     original: 
 
-stem: 
+stem: diagnosis
 aliases:
-  - edward-bradford-titchener
+  - diagnosis
 related:
-  - strukturalisme
+  - dd
 
 status: established
 status_note: >
@@ -42,6 +45,6 @@ review:
   community_score:
 
 authors: ndw
-date_added: 2026-06-06
-last_modified: 2026-06-06
+date_added: 2026-06-26
+last_modified: 2026-06-26
 ---

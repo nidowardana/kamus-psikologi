@@ -1,38 +1,40 @@
 ---
 layout: term
-term_id : gangguan-psikiatris
-initial: G
+term_id : diagnosis-pembedaan
+initial: D
 disambiguator:
 
-title: gangguan psikiatris
+title: diagnosis pembedaan
 
 senses:
 - def_idx: 1
   english:
-  - psychiatric disorder
+  - differential diagnosis
   class:
   - noun
   categories: 
-  - kondisi
+  - proses
   fields: 
   - psi-klinis
   def_types: redirect
-  target: gangguan-mental
+  target: diagnosis-banding
   usage_note: >
+    Istilah ini dipakai dalam Kamus Istilah Psikologi.
   references:
   - apa_dict
+  - hasan_1981
 
 origin:
-  - language: Indonesia
-    original: gangguan
   - language: Yunani
-    original: psyche-iatros
+    original: dia-gignoskein
+  - language: Sansekerta
+    original: bheda
 
-stem: ganggu
+stem: diagnosis
 aliases:
-  - gangguan-mental
-  - gangguan-psikologis
-  - psikopatologi
+  - dd
+  - diagnosis-banding
+  - diagnosis-diferensial
 related:
   - 
 

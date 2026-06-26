@@ -17,7 +17,7 @@ permalink: /tentang/
     Situs ini digagas dan disusun oleh <a href="https://nidowardana.github.io/">Nido D. Wardana</a>. Nido adalah peneliti dan pengajar di bidang Psikologi. Bidang yang diminatinya adalah neuropsikologi dan psikologi kriminal.
   </p>
   <p>
-    Setiap entri disusun berdasarkan sumber yang dicantumkan secara jelas pada halaman entri terkait. Definisi, contoh penggunaan, dan informasi lainnya ditinjau serta disunting sebelum dipublikasikan. Meskipun, perangkat Akal Imitasi (AI) digunakan dalam pengembangan teknis situs ini, seluruh entri tetap melalui proses peninjauan oleh penyusun untuk memastikan kejelasan, konsistensi, dan ketepatan informasi.
+    Setiap entri disusun berdasarkan sumber yang dicantumkan secara jelas pada halaman entri terkait. Definisi, contoh penggunaan, dan informasi lainnya ditinjau serta disunting sebelum dipublikasikan. Meskipun perangkat Akal Imitasi (AI) digunakan dalam pengembangan teknis situs ini, seluruh entri tetap melalui proses peninjauan oleh penyusun untuk memastikan kejelasan, konsistensi, dan ketepatan informasi.
   </p>
 </section>
 

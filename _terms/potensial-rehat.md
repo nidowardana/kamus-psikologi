@@ -16,7 +16,7 @@ senses:
   - konsep
   fields: 
   - psi-biokognitif
-  def_types: alternate
+  def_types: redirect
   target: potensial-istirahat
   usage_note: >
   references:

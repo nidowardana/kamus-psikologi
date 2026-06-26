@@ -17,7 +17,7 @@ senses:
   - ilmu
   fields: 
   - umum
-  def_types: alternate
+  def_types: redirect
   target: biopsikologi
   usage_note: >
     Meskipun sering dipertukarkan, biologi perilaku pada hakikatnya berbeda dengan biopsikologi karena lebih menekankan pada aspek ilmu biologi ketimbang psikologinya.
