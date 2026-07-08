@@ -1,40 +1,38 @@
 ---
 layout: term
-term_id : tombol-terminal
-initial: T
+term_id : ritme-diurnal
+initial: R
 disambiguator:
 
-title: tombol terminal
+title: ritme diurnal
 
 senses:
 - def_idx: 1
   english:
-  - terminal button
+  - diurnal rhythm
   class:
   - noun
   categories: 
-  - anatomi
+  - konsep
   fields: 
   - psi-biokognitif
   def_types: redirect
-  target: terminal-akson
+  target: ritme-sirkadian
   usage_note: >
   references:
-  - pinel_2018
-  - spielman_2020
-  - weiten_2017
+  - apa_dict
 
 origin:
-  - language: Indonesia
-    original: tombol
+  - language: Yunani
+    original: rhythmos
   - language: Latin
-    original: terminus
+    original: diurnalis
 
-stem: akson
+stem: ritme
 aliases:
-  - terminal-akson
+  - ritme-sirkadian
 related:
-  - akson
+  - ritme-biologis
 
 status: established
 status_note: >
@@ -47,6 +45,6 @@ review:
   community_score:
 
 authors: ndw
-date_added: 2026-06-26
-last_modified: 2026-06-26
+date_added: 2026-07-08
+last_modified: 2026-07-08
 ---

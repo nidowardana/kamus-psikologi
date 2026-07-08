@@ -18,7 +18,7 @@ senses:
   - psi-klinis
   def_types: term
   definition: >
-    Sekumpulan gejala atau tanda perilaku maupun kondisi fisiologis yang tidak normal yang menimbulkan distres secara intens atau terus-menerus atau menganggu keberfungsian hidup.
+    Sekumpulan gejala atau tanda perilaku maupun kondisi fisiologis yang tidak normal yang menimbulkan distres secara intens atau terus-menerus atau mengganggu keberfungsian hidup.
   example: >
     "**Gangguan** depresif mayor berbeda dengan perasaan depresi yang sering orang deskripsikan dalam kehidupan sehari-hari."
   usage_note: >

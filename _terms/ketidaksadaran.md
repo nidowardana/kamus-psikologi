@@ -28,8 +28,8 @@ senses:
   - weiten_2017
 
 origin:
-  - language: Inggris
-    original: unconcious
+  - language: Indonesia
+    original: tidak-sadar
 
 stem: sadar
 aliases:
@@ -49,5 +49,5 @@ review:
 
 authors: ndw
 date_added: 2026-06-06
-last_modified: 2026-06-06
+last_modified: 2026-06-29
 ---

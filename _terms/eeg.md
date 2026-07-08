@@ -1,23 +1,23 @@
 ---
 layout: term
-term_id : tombol-terminal
-initial: T
+term_id : eeg
+initial: E
 disambiguator:
 
-title: tombol terminal
+title: EEG
 
 senses:
 - def_idx: 1
   english:
-  - terminal button
+  - EEG
   class:
   - noun
   categories: 
-  - anatomi
+  - instrumen
   fields: 
   - psi-biokognitif
   def_types: redirect
-  target: terminal-akson
+  target: elektroensefalografi
   usage_note: >
   references:
   - pinel_2018
@@ -25,16 +25,14 @@ senses:
   - weiten_2017
 
 origin:
-  - language: Indonesia
-    original: tombol
-  - language: Latin
-    original: terminus
+  - language: 
+    original: 
 
-stem: akson
+stem: 
 aliases:
-  - terminal-akson
+  - elektroensefalografi
 related:
-  - akson
+  - 
 
 status: established
 status_note: >
@@ -47,6 +45,6 @@ review:
   community_score:
 
 authors: ndw
-date_added: 2026-06-26
-last_modified: 2026-06-26
+date_added: 2026-07-08
+last_modified: 2026-07-08
 ---
