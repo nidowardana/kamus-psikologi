@@ -50,6 +50,19 @@ hasan_1981:
   publisher: "Pusat Pembinaan dan Pengembangan Bahasa Departemen Pendidikan dan Kebudayaan"
   location: "Jakarta"
 
+harvey_2019:
+  type: article
+  authors:
+    - family: "Harvey"
+      given: "Philip D."
+  title: "Domains of cognition and their assessment"
+  journal: "Dialogues in Clinical Neuroscience"
+  volume: 21
+  issue: 3
+  pages: 227-237
+  date: 2019
+  doi: 10.31887/DCNS.2019.21.3/pharvey
+
 hooley_2021:
   type: book
   authors:
