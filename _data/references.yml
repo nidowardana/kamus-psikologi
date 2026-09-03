@@ -39,6 +39,21 @@ dsm_iv_tr:
   location: "Washington, D.C."
   isbn:  978-0890420256
 
+friedman_2022:
+  type: article
+  authors:
+    - family: "Friedman"
+      given: "Naomi P."
+    - family: "Robbins"
+      given: "Trevor W."
+  title: "The role of prefrontal cortex in cognitive control and executive function"
+  journal: "Neuropsychopharmacology"
+  volume: 47
+  issue: 1
+  pages: 72-89
+  date: 2022
+  doi: 10.1038/s41386-021-01132-0
+
 hasan_1981:
   type: book
   authors:

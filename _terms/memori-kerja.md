@@ -39,6 +39,7 @@ aliases:
   - 
 related:
   - memori-jangka-pendek
+  - fungsi-eksekutif
 
 status: established
 status_note: >
@@ -52,5 +53,5 @@ review:
 
 authors: ndw
 date_added: 2026-07-15
-last_modified: 2026-07-15
+last_modified: 2026-09-03
 ---
