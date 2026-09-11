@@ -187,6 +187,29 @@ ppnpk_1:
   publisher: "Ikatan Psikologi Klinis Indonesia"
   location: "Jakarta"
 
+rath_2004:
+  type: article
+  authors:
+    - family: "Rath"
+      given: "Joseph F."
+    - family: "Langenbahn"
+      given: "Donna M."
+    - family: "Simon"
+      given: "Deborah"
+    - family: "Sheer"
+      given: "Rose Lynn"
+    - family: "Fletcher"
+      given: "Jason"
+    - family: "Diller"
+      given: "Leonard"
+  title: "The construct of problem solving in higher level neuropsychological assessment and rehabilitation"
+  journal: "Archives of Clinical Neuropsychology"
+  volume: 19
+  issue: 5
+  pages: 613-635
+  date: 2004
+  doi: 10.1016/j.acn.2003.08.006
+
 sadarjoen_2020:
   type: book
   authors:
