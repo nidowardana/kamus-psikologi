@@ -359,6 +359,10 @@ section {
   list-style: none;
 }
 
+.search-results[hidden] {
+  display: none;
+}
+
 .search-results li {
   border: 1px solid var(--border);
   border-radius: 6px;

@@ -25,6 +25,9 @@
         }
 
         return response.json();
+      }).catch(function (error) {
+        indexPromise = undefined;
+        throw error;
       });
     }
 
@@ -63,7 +66,9 @@
       return;
     }
 
-    status.textContent = results.length + " hasil ditemukan.";
+    status.textContent = results.length > 8
+      ? "Menampilkan 8 dari " + results.length + " hasil ditemukan."
+      : results.length + " hasil ditemukan.";
     list.hidden = false;
 
     results.slice(0, 8).forEach(function (term) {
@@ -83,13 +88,21 @@
 
   containers.forEach(function (container) {
     const input = container.querySelector("input[type='search']");
+    let requestId = 0;
 
     input.disabled = false;
     input.addEventListener("input", function () {
       const query = normalize(input.value);
+      const currentRequest = ++requestId;
+      const status = container.querySelector("[data-search-status]");
+
+      renderResults(container, [], "");
+      if (!query) return;
+      status.textContent = "Memuat hasil pencarian…";
 
       fetchIndex()
         .then(function (terms) {
+          if (currentRequest !== requestId) return;
           const results = terms
             .map(function (term) {
               return Object.assign({ score: scoreTerm(term, query) }, term);
@@ -104,7 +117,7 @@
           renderResults(container, results, query);
         })
         .catch(function () {
-          const status = container.querySelector("[data-search-status]");
+          if (currentRequest !== requestId) return;
           status.textContent = "Pencarian belum dapat dimuat.";
         });
     });

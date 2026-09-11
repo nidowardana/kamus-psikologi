@@ -1,37 +1,37 @@
 ---
 layout: term
-term_id : usia-kalender
-initial: U 
+term_id : inteligen
+initial: I 
 disambiguator:
 
-title: usia kalender
+title: inteligen
 
 senses:
 - def_idx: 1
   english:
-  - calendar age
+  - intelligent
   class:
-  - noun
+  - adj
   categories: 
   - konsep
   fields: 
   - umum
-  - psi-perkembangan
-  def_types: redirect
-  target: usia-kronologis
+  def_types: term
+  definition: >
+    Memiliki tingkat kecerdasan intelektual yang tinggi; Cerdas.
+  example: >
+    "Ari adalah anak yang inteligen."
   usage_note: >
   references:
-  - apa_dict
+  - kbbi
 
 origin:
-  - language: Sansekerta
-    original: ayus
   - language: Latin
-    original: kalendarium
+    original: intelligentia
 
-stem: usia
+stem: inteligen
 aliases:
-  - usia-kronologis
+  - 
 related:
   - 
 
