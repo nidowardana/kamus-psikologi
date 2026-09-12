@@ -165,6 +165,20 @@ maslim_2013:
   publisher: "Bagian Ilmu Kedokteran Jiwa FK-Unika Atmajaya"
   location: "Jakarta"
 
+navarro_2025:
+  type: book
+  authors:
+    - family: "Navarro"
+      given: "D.J."
+    - family: "Foxcroft"
+      given: "D.R."
+    - family: "Faulkenberry"
+      given: "T.J."
+  title: "Learning Statistics with JASP: A Tutorial for Psychology Students and Other Beginners"
+  edition: "2nd"
+  date: 2025
+  url:  https://learnstatswithjasp.com
+
 pinel_2018:
   type: book
   authors:

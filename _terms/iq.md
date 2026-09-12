@@ -25,7 +25,7 @@ senses:
   - diener_2026
   - hasan_1981
   - kbbi
-  - spielman_2018
+  - spielman_2020
   - weiten_2017
 
 origin:

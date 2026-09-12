@@ -28,7 +28,7 @@ senses:
   - apa_dict
   - diener_2026
   - hasan_1981
-  - spielman_2018
+  - spielman_2020
   - weiten_2017
 
 origin:
