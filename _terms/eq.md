@@ -1,15 +1,15 @@
 ---
 layout: term
-term_id : iq
-initial: I
+term_id : eq
+initial: E
 disambiguator:
 
-title: IQ
+title: EQ
 
 senses:
 - def_idx: 1
   english:
-  - IQ
+  - EQ
   class:
   - noun
   categories: 
@@ -18,25 +18,20 @@ senses:
   - umum
   - psi-perkembangan
   def_types: redirect
-  target: kecerdasan-intelektual
+  target: kecerdasan-emosional
   usage_note: >
   references:
   - apa_dict
-  - diener_2026
-  - hasan_1981
-  - kbbi
-  - spielman_2020
-  - weiten_2017
 
 origin:
   - language: Inggris
-    original: IQ
+    original: EQ
 
-stem: iq
+stem: eq
 aliases:
-  - kecerdasan-intelektual
+  - kecerdasan-emosional
 related:
-  - inteligensi
+  - inteligensi-emosional
 
 status: established
 status_note: >
@@ -49,6 +44,6 @@ review:
   community_score:
 
 authors: ndw
-date_added: 2026-09-11
+date_added: 2026-09-20
 last_modified: 2026-09-20
 ---

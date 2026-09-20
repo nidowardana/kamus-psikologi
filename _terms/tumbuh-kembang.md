@@ -1,15 +1,15 @@
 ---
 layout: term
-term_id : iq
-initial: I
+term_id : tumbuh-kembang
+initial: T
 disambiguator:
 
-title: IQ
+title: tumbuh kembang
 
 senses:
 - def_idx: 1
   english:
-  - IQ
+  - development
   class:
   - noun
   categories: 
@@ -18,25 +18,22 @@ senses:
   - umum
   - psi-perkembangan
   def_types: redirect
-  target: kecerdasan-intelektual
+  target: perkembangan
   usage_note: >
   references:
-  - apa_dict
-  - diener_2026
-  - hasan_1981
   - kbbi
-  - spielman_2020
-  - weiten_2017
 
 origin:
-  - language: Inggris
-    original: IQ
+  - language: Indonesia
+    original: tumbuh
+  - language: Indonesia
+    original: kembang
 
-stem: iq
+stem: kembang
 aliases:
-  - kecerdasan-intelektual
+  - perkembangan
 related:
-  - inteligensi
+  - 
 
 status: established
 status_note: >
@@ -49,6 +46,6 @@ review:
   community_score:
 
 authors: ndw
-date_added: 2026-09-11
-last_modified: 2026-09-20
+date_added: 2026-09-19
+last_modified: 2026-09-19
 ---

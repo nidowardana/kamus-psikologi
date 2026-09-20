@@ -155,6 +155,16 @@ kridalaksana_1982:
   publisher: "Gramedia"
   location: "Jakarta"
 
+lochner_2016:
+  type: book
+  authors:
+    - family: "Lochner"
+      given: "Katharina"
+  title: "Successful Emotions: How Emotions Drive Cognitive Performance"
+  date: 2016
+  publisher: "Springer"
+  doi: 10.1007/978-3-658-12231-7
+
 maslim_2013:
   type: book
   authors:
