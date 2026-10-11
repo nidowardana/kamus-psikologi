@@ -7,7 +7,7 @@ permalink: /masukan/
 <header class="page-header">
   <p class="eyebrow">Kontribusi</p>
   <h1>Beri Masukan</h1>
-  <p class="lead">Bantu menyempurnakan kamus dengan mengusulkan entri baru, koreksi, referensi, atau catatan penggunaan.</p>
+  <p class="lead">Bantu mengembangkan kamus dengan mengusulkan entri baru, meninjau dan mengoreksi entri, atau berkontribusi melalui penulisan dan pengembangan situs.</p>
 </header>
 
 <section>
@@ -17,23 +17,26 @@ permalink: /masukan/
     <article class="info-card">
       <h3>Usulan entri</h3>
       <p>Kirim istilah yang belum tersedia beserta definisi awal, padanan Inggris, bidang, dan referensi bila ada.</p>
+      <a class="button" href="https://forms.gle/7Z1ywVDsQcQj1FGV6">Usulkan entri</a>
     </article>
 
     <article class="info-card">
-      <h3>Koreksi</h3>
-      <p>Laporkan definisi yang perlu diperbaiki, bidang yang kurang tepat, saltik (<i>typo</i>), atau informasi yang perlu diperjelas.</p>
+      <h3>Tinjauan dan koreksi Entri</h3>
+      <p>Tinjau entri dengan memberikan catatan editorial atau akademik, atau laporkan definisi, bidang, saltik (<i>typo</i>), dan informasi lain yang perlu diperbaiki.</p>
+      <a class="button" href="https://forms.gle/Wo2dGRf1z3BzPnPG7">Tinjau atau koreksi entri</a>
     </article>
 
     <article class="info-card">
-      <h3>Tinjauan</h3>
-      <p>Telaah entri-entri baru, yang sedang dalam peninjauan, maupun yang sedang diperdebatkan dengan memberikan nilai, catatan editorial, atau catatan akademik. Status entri akan disesuai berdasarkan riwayat peninjauan ini.</p>
+      <h3>Kontribusi dan kolaborasi lainnya</h3>
+      <p>Ingin menjadi penulis entri, membantu pengembangan situs, atau menawarkan bentuk kontribusi lainnya? Ceritakan minat, keahlian, dan gagasan kolaborasi Anda.</p>
+      <a class="button" href="https://forms.gle/oMwzNJa1cMxkc4778">Tawarkan kontribusi atau kolaborasi</a>
     </article>
   </div>
 </section>
 
 <section>
   <h2>Format Masukan</h2>
-  <p><b>Saat ini, situs ini masih belum siap menerima masukan.</b> Nantinya, untuk memudahkan peninjauan, pembaca diharapkan bisa menyertakan informasi berikut bila tersedia:</p>
+  <p>Untuk memudahkan peninjauan usulan dan koreksi entri, sertakan informasi berikut bila tersedia:</p>
 
   <ul>
     <li>Istilah utama dan kemungkinan sebutan lain.</li>
@@ -46,5 +49,5 @@ permalink: /masukan/
 
 <section class="callout">
   <h2>Kanal kontribusi</h2>
-  <p>Halaman ini disiapkan sebagai pusat kontribusi. Mohon bersabar menantikan kehadiran fitur ini.</p>
+  <p>Pilih formulir yang sesuai pada kartu di atas untuk mengirim usulan, tinjauan dan koreksi, atau gagasan kontribusi dan kolaborasi lainnya.</p>
 </section>

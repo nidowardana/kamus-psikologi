@@ -1,0 +1,15 @@
+---
+layout: post
+title:  "Hari Kesehatan Mental 2026"
+date:   2026-10-10 18:00:00 +0200
+post_categories: update
+authors:
+- ndw
+---
+Selamat Hari Kesehatan Mental 2026!
+
+Dalam rangka memeringati hari ini, "Kesehatan Mental" menjadi istilah bulan ini. Tampaknya istilah ini makin sering kita dengar dan gunakan dalam percakapan sehari-sehari akhir-akhir ini. Kebanyakan orang mungkin sudah familier dan paham dengan istilah ini. Tetapi, (seperti halnya banyak konsep lainnya) dalam kajian ilmu Psikologi, istilah ini sebetulnya cukup kompleks untuk didefinisikan karena menjadi sehat mental bukan hanya sekadar bebas dari gangguan mental. 
+
+Bersama peringatan ini juga, Kamus Psikologi Indonesia telah membuka beberapa formulir yang bisa digunakan para pengunjung untuk ikut berkontribusi dalam pengembangan kamus ini. Sila cek laman <a href="{{ '/masukan/' | relative_url }}">"Masukan"</a>.
+
+Semoga kita sehat dan sejahtera selalu!
