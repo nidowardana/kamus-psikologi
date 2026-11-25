@@ -7,6 +7,17 @@ apa_dict:
   location: "Washington, D.C."
   url: https://dictionary.apa.org/
 
+ballard_2026:
+  type: online_article
+  authors:
+    - family: "Ballard"
+      given: "John"
+  title: "Misconceptions about 'Maslow's Pyramid'"
+  date: 2026-06-29
+  url: https://www.psychologytoday.com/us/blog/theory-knowledge/202606/misconceptions-about-maslows-pyramid 
+  website: "Psychology Today"
+
+
 diener_2026:
   type: book
   authors:

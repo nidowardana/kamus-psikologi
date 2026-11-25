@@ -23,8 +23,10 @@ senses:
   example: >
     "Penelitian yang lebih baru mencoba menambahkan kebutuhan akan pengetahuan dan estetika ke dalam **piramida kebutuhan** Maslow."
   usage_note: >
+    Maslow tidak pernah menggunakan piramida sebagai representasi visual dari hierarki kebutuhan. Beberapa ahli berpendapat bahwa bentuk piramida justru tidak konsisten dengan teori Maslow. Penggambaran yang lebih tepat mungkin adalah tangga.
   references:
   - spielman_2020
+  - ballard_2026
 
 origin:
   - language: Latin
@@ -50,5 +52,5 @@ review:
 
 authors: ndw
 date_added: 2026-06-08
-last_modified: 2026-06-08
+last_modified: 2026-11-25
 ---
